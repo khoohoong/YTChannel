@@ -1,0 +1,57 @@
+# THE TRUE ORIGIN OF SOUTHEAST ASIA — Project Status / Handoff
+
+> **READ THIS FIRST before doing any work next session.**
+> This is a YouTube documentary project produced with Higgsfield (MCP).
+> Work paused **2026-06-25** because the Higgsfield credit balance ran low.
+> Resume **next month** once credits refill.
+
+---
+
+## 🎯 THE VIDEO
+- **Title:** *The TRUE Origin of Southeast Asia*
+- **Target runtime:** ~6:25 (≈385s)
+- **Format:** cinematic history/prehistory documentary, 16:9
+- **Structure:** 4 segments — (1) Hobbits of Flores, (2) Austronesian Expansion, (3) The Naga, (4) Angkor
+- **Narration script:** `script.md` — **FACT-CHECKED & CORRECTED, locked, approved by user.**
+
+## ✅ DECISIONS LOCKED (do not re-litigate)
+- **Voice:** **Arthur** (deep male documentary). ElevenLabs.
+  - model: `text2speech_v2_elevenlabs` · `voice_type: preset` · `voice_id: 30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
+- **Hero shots:** Seedance 2.0 (`seedance_2_0`), 1080p, 5s, 16:9, photoreal documentary style, "no text".
+- **Stills:** Nano Banana Pro (`nano_banana_pro`), 16:9.
+- **B-roll:** Kling (`kling3_0_turbo`), 5s, 16:9. (Note: prompts may trigger a preset suggestion e.g. "IN THE DARK" — decline with `declined_preset_id` and retry literal.)
+- **Script tone & content:** approved as in `script.md`. Mute hero clips' built-in audio in the edit; VO + music only.
+- **Music:** CANNOT be generated with these tools (TTS only). User sources a music bed externally. A music brief exists (see "Music brief" below).
+
+## 📌 WHERE WE ARE
+The project began as a short **1:46 teaser** ("The Forgotten Worlds of Southeast Asia") and was then **upgraded to the full 6:25 video**. The 12 teaser assets + 100s VO already exist (see `assets.md`) and are **reusable as a subset** of the full video — but they are NOT the whole thing.
+
+### DONE
+- [x] 4 hero shots (Seedance) — one per segment
+- [x] 4 stills (Nano Banana Pro) — one per segment
+- [x] 4 B-roll clips (Kling) — one per segment
+- [x] Teaser VO (Arthur, 100.7s) — **SUPERSEDED** by the full 6:25 script; regenerate.
+- [x] Full 6:25 script written, **fact-checked against live sources, corrected, user-approved**
+- [x] Teaser edit timeline (`edit_timeline_short_v1.md`) — for the 1:46 cut only; reference, not final.
+
+### TODO NEXT MONTH (in order)
+1. **Generate the full ~6:25 Arthur VO** from `script.md` (single ElevenLabs job, or per-segment if length-limited).
+2. **Generate ~20 additional visuals** to cover the expanded runtime (the existing 12 only cover ~1:46). Roughly +3–5 assets per segment: more heroes, stills, and B-roll. Match the locked style above.
+3. **Write the full 6:25 shot-by-shot edit timeline** (the teaser timeline is the template; expand it to 4× length against the new VO).
+4. (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
+
+## ⚠️ DO-NOT-MESS-UP NOTES
+- The **teaser VO (100s) is obsolete** — the full script is the source of truth. Don't ship the 100s track as the final.
+- **Flores dating was wrong in the first draft and is now fixed** (60k–100k yrs, extinction ~50k yrs ago — NOT 18,000). Do not revert to the 18,000-year figure.
+- Other corrected figures: Austronesians left Taiwan ~4,000 ya; Angkor pop. 700k–900k (not "a million"); London ~20k in 12th c.; barays "traced from the air" (not "seen from space"). See `script.md` — it already contains the corrected text.
+- **Check credits first** (`balance` tool) before firing a generation batch — that's why we paused.
+- Higgsfield asset URLs (CloudFront) may expire; assets also live in the Higgsfield workspace under Generations. Re-fetch via `job_display` with the job IDs in `assets.md` if a link 404s.
+
+## 🎵 Music brief (for external sourcing)
+Cinematic ancient-mystery documentary score; slow ~60–75 BPM building; low sustained strings/drones, soft world percussion (frame drum, gamelan mallets), SE-Asian flute/bamboo texture; full string/brass swell for the Angkor finale. ~6:30 length. Duck to −18 to −22 dB under VO. Per-segment arc: Flores = eerie/minimal; Austronesian = hopeful/forward motion; Naga = tension/low brass; Angkor = full swell then resolve.
+
+## 📁 Files in this folder
+- `script.md` — corrected, approved 6:25 narration (source of truth)
+- `assets.md` — all existing asset URLs + Higgsfield job IDs
+- `download_assets.sh` — downloads the existing 12 visuals + teaser VO
+- `edit_timeline_short_v1.md` — the 1:46 teaser timeline (template for the full one)
