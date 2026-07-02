@@ -1,7 +1,7 @@
 # THE TRUE ORIGIN OF SOUTHEAST ASIA — Full Narration Script
 # Target: ~6:25 (385 seconds) · Voice: Arthur (ElevenLabs)
 # Pace: ~4 words/second = ~1,540 words
-# STATUS: fact-checked against live sources, corrected, user-approved (2026-06-25)
+# STATUS: fact-checked twice against live sources; Flores extinction framing tightened (2026-07-02)
 
 ---
 
@@ -13,13 +13,15 @@ There is a place where the oldest stories on Earth still breathe. Where temples 
 
 In 2003, on the remote Indonesian island of Flores, a team of archaeologists made a discovery that shook the foundations of everything we thought we knew about human evolution.
 
-Deep inside a limestone cave called Liang Bua, they found a skeleton. It was complete, well-preserved, and clearly human. But something was deeply wrong. The skull was no larger than a grapefruit. The body stood barely one meter tall. This was not a child. It was a fully grown adult.
+Deep inside a limestone cave called Liang Bua, they found a skeleton. It was remarkably complete, well-preserved, and clearly human. But something was deeply wrong. The skull was no larger than a grapefruit. The body stood barely one meter tall. This was not a child. It was a fully grown adult.
 
 They named her LB1. The press called her the Hobbit. Science called her Homo floresiensis — a species of human being that had never been seen before. The remains are now dated to between sixty thousand and one hundred thousand years old, and stone tools on the island hint that her kind may have walked here for hundreds of thousands of years before that.
 
 How did she get so small? On islands, large animals shrink and small animals grow — a phenomenon called island dwarfism. Flores had dwarf elephants too, tiny Stegodons the Hobbits hunted with simple stone tools. Isolated from the rest of the world, an entire branch of humanity evolved in miniature — and thrived.
 
-But here is the part that haunts researchers. The Hobbits disappeared from Flores around fifty thousand years ago — at almost exactly the moment modern humans were spreading through Southeast Asia for the first time. Was it coincidence? Or did our arrival — through competition, disease, or something darker — help drive them to extinction? Recent studies even point to a drying climate closing in around them in their final millennia.
+But here is the part that haunts researchers. The Hobbits vanished from Liang Bua around fifty thousand years ago. Our own species did not reach the cave until roughly forty-six thousand years ago — arriving, it seems, just a few thousand years too late to ever meet them.
+
+So what became of them? The latest evidence points not to us, but to the sky. A deepening drought closed in on the island in their final millennia, drying the land and thinning the herds of dwarf Stegodon they had hunted for a thousand generations. An entire kind of human — gone, just before we arrived to walk the same caves.
 
 The caves of Flores hold no certain answer. Only silence.
 
@@ -31,7 +33,7 @@ Beginning around five thousand years ago, a people we now call the Austronesians
 
 They had no compass. No charts. No metal tools. What they had was the sky. Austronesian navigators read the stars like a map. They tracked the movement of ocean swells against the hull. They watched the flight patterns of birds and the colour of clouds reflected off distant lagoons. This was not luck. This was science — passed down through generations in song and memory.
 
-And it worked. Over the course of three thousand years, they settled every inhabitable island in the Pacific and Indian Oceans — from Madagascar off the coast of Africa to Rapa Nui, Easter Island, the most remote inhabited place on Earth. It was the single largest maritime migration in human history, spanning more than half the planet.
+And it worked. Over the course of three thousand years, they settled almost every habitable island across the Pacific and Indian Oceans — from Madagascar off the coast of Africa to Rapa Nui, Easter Island, the most remote inhabited place on Earth. It was the single largest maritime migration in human history, spanning more than half the planet.
 
 In Southeast Asia, they became the ancestors of the Malay, the Javanese, the Filipino, the Polynesian peoples. They brought with them rice cultivation, domesticated animals, pottery, and a family of languages — the Austronesian language family — more than a thousand tongues still spoken by nearly four hundred million people today.
 
@@ -78,8 +80,14 @@ And we have barely scratched the surface.
 
 ---
 
-## FACT-CHECK LOG (2026-06-25, verified via web search)
-- Flores: remains dated **60k–100k years** (Sutikna et al. 2016, *Nature*); extinction **~50k years ago**; aridification decline ~61k (2025 study). [Original draft's "18,000 years" was WRONG — corrected.]
+## FACT-CHECK LOG
+### Pass 2 (2026-07-02, re-verified)
+- Flores: **no overlap with modern humans at the site** — Hobbits vanished ~50k ya; *H. sapiens* reached Liang Bua only ~46k ya (UCL/Sutikna). Leading extinction cause is **drought/aridification** (peak 61k–55k ya, *Comms Earth & Env* 2025), NOT human competition. Segment 1 reframed away from "did we kill them" toward the climate + "we just missed them" angle.
+- Softened two overstatements: LB1 "remarkably complete" (not "complete"); Austronesians settled "almost every habitable island" (not "every").
+- Austronesians leaving Taiwan ~4,000 BP re-confirmed.
+
+### Pass 1 (2026-06-25, verified via web search)
+- Flores: remains dated **60k–100k years** (Sutikna et al. 2016, *Nature*). [Original draft's "18,000 years" was WRONG — corrected.]
 - Austronesians: arrived Taiwan ~6,000 ya, **left Taiwan ~4,000 ya**; ~1,200 languages, ~386M speakers.
 - Angkor: pop. **700k–900k** (LiDAR, Evans et al. PNAS); peak 12th–13th c.; Greater Angkor ~3,000 km².
 - London: ~18–20k in early 12th c.; ~80k by 1300. Comparison anchored to 12th c. (Angkor Wat construction).
