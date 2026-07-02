@@ -95,7 +95,40 @@
 ---
 
 ## NOTES
-- **Coverage:** 26 video clips + 4 stills across ~9 min. Each clip is used ~1–2× (marked "R"). If you want fewer repeats, generate a second B-roll batch (another ~15–20 clips) — Kling is 7.5 cr each.
+- **Coverage:** now **44 video clips + 4 stills** across ~9 min (second batch added). With the extra clips you can replace almost every "R" reuse slot with a fresh shot — near-zero repeats.
 - **Milky Way** has a duplicate (`aa6e99a8` and `dd9926b1`); pick whichever looks better, discard the other.
 - **Transitions:** hard cuts within a segment on the bolded VO beats; ½–1s music-only breath between segments works well.
 - **Heroes carry Seedance audio — mute them.** VO + music bed only.
+
+---
+
+## SECOND-BATCH INTEGRATION (replace the "R" reuse slots with these fresh clips)
+Use these to de-duplicate; drop each into the segment where its "R" reuse currently sits.
+
+**Segment A — Flores** (replace the 5 reuse holds):
+- 1:12 slot → **N1h** excavation grid + scale bar (instead of cave R)
+- 1:52 slot → **N1g** Flores coastline aerial (instead of island aerial R)
+- 2:05 slot → **N1i** floresiensis walking through forest (instead of fire R)
+- 2:20 slot → **N1f** stone tool macro (new insert)
+- 2:33 slot → **N1j** rainforest sunbeams (mood, instead of cave R)
+- spare: (none) — all 5 Flores-2 clips placed
+
+**Segment B — Austronesian** (replace the 3 reuse holds):
+- 1:18 slot → **N2f** stern wake POV (instead of lone-canoe R)
+- 1:30 slot → **N2e** crab-claw sail (instead of fleet R)
+- 1:42 slot → **N2g** island landfall (instead of hands R)
+- outro of segment → **N2h** rice terraces (over "blood, language, rice fields")
+
+**Segment C — Naga** (replace the 1 reuse hold + enrich):
+- 0:55 slot → **N3e** churning-of-the-ocean relief (instead of balustrade R)
+- add before fireballs → **N3f** monsoon rain on river (over "controls the rains")
+- fireballs beat → keep **N3c**, then **N3g** floating candles as companion night shot
+- 1:30 closing → **N3h** wet Naga head macro (instead of serpent R)
+
+**Segment D — Angkor** (replace the 4 reuse holds):
+- 0:00 alt open → **N4f** Wat silhouette sunrise (or keep H4; use N4f as second beat)
+- 0:34 slot → **N4g** apsara macro (instead of moat R)
+- 0:45 slot → **N4j** complex pull-back (instead of baray R)
+- 1:22 beat → **N4f**/**N4e** faces
+- 1:58 "drought/fail" → **N4h** cracked reservoir bed (instead of baray dry-tone R)
+- monk beat → **N4i** monks on causeway (stronger than OB4; use both)

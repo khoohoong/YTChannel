@@ -62,6 +62,32 @@ assets=(
   "N4c_baray_aerial.mp4|$BASE/hf_20260702_143600_ccf01950-2909-4937-b81c-8515776dd4c7.mp4"
   "N4d_taprohm_roots.mp4|$BASE/hf_20260702_143606_66d732ed-9dae-49a5-a1ea-246cc4abdd1b.mp4"
   "N4e_bayon_faces.mp4|$BASE/hf_20260702_143609_78ecf9fa-e785-435a-a9df-c1b05d0268ca.mp4"
+
+  # ---------- SECOND B-ROLL BATCH: FLORES ----------
+  "N1f_stone_tool_macro.mp4|$BASE/hf_20260702_144836_925aaae7-4b59-444f-9efd-c259ddb9d429.mp4"
+  "N1g_flores_coastline.mp4|$BASE/hf_20260702_144841_48ee2b84-3fbf-4780-a6e2-f698aa7b3cca.mp4"
+  "N1h_excavation_grid.mp4|$BASE/hf_20260702_144844_bcab66fb-f83d-417a-b1b6-fac3c66ca8b0.mp4"
+  "N1i_floresiensis_walking.mp4|$BASE/hf_20260702_144852_c2225433-af86-4ba3-8ccb-34580c34fca3.mp4"
+  "N1j_rainforest_sunbeams.mp4|$BASE/hf_20260702_144903_613cd13e-eb4d-4e58-b82d-3794dbcb3a72.mp4"
+
+  # ---------- SECOND B-ROLL BATCH: AUSTRONESIAN ----------
+  "N2e_crabclaw_sail.mp4|$BASE/hf_20260702_145027_2b283a35-128f-4147-a9b2-aca5a8515ab8.mp4"
+  "N2f_stern_wake.mp4|$BASE/hf_20260702_144912_a8aa42ab-d4ac-475e-a0c4-3c1c7c3c3efc.mp4"
+  "N2g_island_landfall.mp4|$BASE/hf_20260702_145033_bea245bc-4cd5-4357-ba25-b0a22ee0bd34.mp4"
+  "N2h_rice_terraces.mp4|$BASE/hf_20260702_145102_0025f8cc-b007-41a4-8b56-a6a7b55b42c4.mp4"
+
+  # ---------- SECOND B-ROLL BATCH: NAGA ----------
+  "N3e_churning_ocean_relief.mp4|$BASE/hf_20260702_144924_fe66154f-112d-4619-80f2-1b9c359d6739.mp4"
+  "N3f_monsoon_rain_river.mp4|$BASE/hf_20260702_144928_214431eb-6ff9-40c9-b1f9-e4f3f561bea3.mp4"
+  "N3g_floating_candles.mp4|$BASE/hf_20260702_144932_c49ee8b8-84bb-4fd1-85a3-f56c72d023bf.mp4"
+  "N3h_naga_head_macro.mp4|$BASE/hf_20260702_144935_5e2f4d4e-a75e-4f15-82ea-34a132edcd66.mp4"
+
+  # ---------- SECOND B-ROLL BATCH: ANGKOR ----------
+  "N4f_wat_silhouette_sunrise.mp4|$BASE/hf_20260702_144938_aed7831c-1cac-404e-919a-6fc27a47aef3.mp4"
+  "N4g_apsara_macro.mp4|$BASE/hf_20260702_144944_59dae0e0-b01b-48d2-88f8-9b2fe25d8ef5.mp4"
+  "N4h_drought_cracked_earth.mp4|$BASE/hf_20260702_144947_ebc0111c-3d7f-4160-bf9c-2ccb93d32c7c.mp4"
+  "N4i_monks_causeway.mp4|$BASE/hf_20260702_145043_404d13b4-186a-4998-8cdf-1dc0dafdecd4.mp4"
+  "N4j_complex_pullback.mp4|$BASE/hf_20260702_144952_f0478987-d824-4919-b3ef-e9c19cd3ec67.mp4"
 )
 
 echo "Downloading ${#assets[@]} assets into ./$OUT/ ..."
