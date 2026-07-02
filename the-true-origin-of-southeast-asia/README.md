@@ -37,10 +37,13 @@ The project began as a short **1:46 teaser** ("The Forgotten Worlds of Southeast
 ### PROGRESS (updated 2026-07-02)
 1. [x] **Full ~6:25 Arthur VO** generated — 4 segment-aligned files (see `assets.md`, "FULL 6:25 PRODUCTION"). Model form is `text2speech_v2` + `variant: elevenlabs`.
 2. [x] **18 new B-roll clips** generated (Standard coverage) — reuse existing 8 videos + 4 stills; stills kept minimal per user.
-3. [ ] **Write the full 6:25 shot-by-shot edit timeline** (teaser timeline is the template; expand to 4× against the new VO + all B-roll).
+3. [x] **Full edit timeline written** — `edit_timeline_full_v2.md` (shot-by-shot, all 30 assets mapped to the 4 VO files).
 4. [ ] (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
 
+**RUNTIME NOTE:** Arthur reads slower than estimated — final VO is **~9:06**, not 6:25. User chose to KEEP the ~9 min cut (2026-07-02). VO durations: A 2:41 · B 2:05 · C 1:43 · D 2:38.
+
 Coverage decision: user chose "Standard (~18 clips)" and "keep stills minimal". Do NOT add many stills.
+Everything to assemble the ~9 min cut now exists. Downloader: `download_assets_full.sh`.
 
 ## ⚠️ DO-NOT-MESS-UP NOTES
 - The **teaser VO (100s) is obsolete** — the full script is the source of truth. Don't ship the 100s track as the final.
