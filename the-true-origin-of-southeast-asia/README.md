@@ -34,11 +34,13 @@ The project began as a short **1:46 teaser** ("The Forgotten Worlds of Southeast
 - [x] Full 6:25 script written, **fact-checked against live sources, corrected, user-approved**
 - [x] Teaser edit timeline (`edit_timeline_short_v1.md`) — for the 1:46 cut only; reference, not final.
 
-### TODO NEXT MONTH (in order)
-1. **Generate the full ~6:25 Arthur VO** from `script.md` (single ElevenLabs job, or per-segment if length-limited).
-2. **Generate ~20 additional visuals** to cover the expanded runtime (the existing 12 only cover ~1:46). Roughly +3–5 assets per segment: more heroes, stills, and B-roll. Match the locked style above.
-3. **Write the full 6:25 shot-by-shot edit timeline** (the teaser timeline is the template; expand it to 4× length against the new VO).
-4. (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
+### PROGRESS (updated 2026-07-02)
+1. [x] **Full ~6:25 Arthur VO** generated — 4 segment-aligned files (see `assets.md`, "FULL 6:25 PRODUCTION"). Model form is `text2speech_v2` + `variant: elevenlabs`.
+2. [x] **18 new B-roll clips** generated (Standard coverage) — reuse existing 8 videos + 4 stills; stills kept minimal per user.
+3. [ ] **Write the full 6:25 shot-by-shot edit timeline** (teaser timeline is the template; expand to 4× against the new VO + all B-roll).
+4. [ ] (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
+
+Coverage decision: user chose "Standard (~18 clips)" and "keep stills minimal". Do NOT add many stills.
 
 ## ⚠️ DO-NOT-MESS-UP NOTES
 - The **teaser VO (100s) is obsolete** — the full script is the source of truth. Don't ship the 100s track as the final.

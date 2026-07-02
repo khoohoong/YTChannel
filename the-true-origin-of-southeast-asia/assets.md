@@ -33,4 +33,56 @@ These 12 visuals + teaser VO cover the **1:46 teaser**; the full 6:25 video need
 |---|---|---|---|---|
 | Teaser VO | `dd298d94-1360-4548-a8ce-21769b8035a9` | 100.7s | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260625_053729_dd298d94-1360-4548-a8ce-21769b8035a9.mp3 | **SUPERSEDED** — regenerate from full `script.md` |
 
-Voice id: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346` (preset, "Arthur") · model `text2speech_v2_elevenlabs`
+Voice id: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346` (preset, "Arthur") · model `text2speech_v2` + `variant: elevenlabs`
+
+---
+
+# FULL 6:25 PRODUCTION (2026-07-02)
+
+The teaser assets above (4 heroes + 4 B-roll + 4 stills) are REUSED. Below are the new assets
+generated for the full ~6:25 cut. URLs added as jobs complete — recover any missing one via
+`job_display` with the JOB ID.
+
+## 🎙️ FULL VOICEOVER — Arthur (ElevenLabs), split into 4 segment-aligned files
+| Part | Covers | Job ID |
+|---|---|---|
+| VO-A | Cold open + Segment 1 (Flores) | `8378f7cf-fe43-4b9f-8a50-9f50ff89cf3d` |
+| VO-B | Segment 2 (Austronesian) | `f956fd3f-19cc-44ad-8ef8-956a4ddd35d8` |
+| VO-C | Segment 3 (Naga) | `0005f042-661e-4bb7-9a4d-04ee13d8c092` |
+| VO-D | Segment 4 (Angkor) + Outro | `265695f1-5e91-4342-9632-14e755941723` |
+
+## 🎥 NEW B-ROLL — Kling 3.0 Turbo, 720p, 5s, 16:9 (18 clips + 1 dup)
+### Segment 1 — Flores
+| Shot | Job ID |
+|---|---|
+| Flores island aerial, dawn | `fd69c041-feb7-4ada-9eda-3b5e00882601` |
+| Liang Bua cave mouth, light shaft | `f9b97547-2c59-4339-ae2d-7a7e3325b0c7` |
+| Tiny skull beside modern skull (scale) | `e0a9f3c7-e7a1-4f4f-8f3d-9ee614d33102` |
+| Dwarf Stegodon herd at dusk | `a1b19c84-e6d8-4fe8-8c79-ecfe2f020065` |
+| H. floresiensis knapping by firelight | `bfb219d3-dad6-409e-a9c2-bbd2fcf05723` |
+### Segment 2 — Austronesian
+| Shot | Job ID |
+|---|---|
+| Single outrigger canoe, aerial open ocean | `64b2c8a4-34b4-4934-864e-fe3b6e6c9401` |
+| Hands lashing canoe hull | `87ac87af-786e-4cdf-9a0c-fbfa331a90af` |
+| Milky Way over ocean (from boat) | `aa6e99a8-706a-4a1a-a7f3-efcb5ce28c72` |
+| Milky Way (accidental duplicate — pick better) | `dd9926b1-d0fb-4112-87d6-c9aadfbb4f36` |
+| Seabirds over ocean, golden hour | `2482f4d4-7a57-42f0-ac1e-cbe56df7b161` |
+### Segment 3 — Naga
+| Shot | Job ID |
+|---|---|
+| Naga balustrade, Angkor causeway | `3dade034-b656-4f5c-98be-a21b142aa66e` |
+| Multi-headed Naga staircase, Thai temple | `95cb121f-b3a0-48f1-98cf-430bbbbfd3d4` |
+| Naga fireballs rising from river, night | `e53cd3cb-4920-4c73-81d0-29cb4ef94ea0` |
+| Royal barge, serpent prow, misty river | `f26b49e0-6d4f-44d9-9511-6789a64e22ec` |
+### Segment 4 — Angkor
+| Shot | Job ID |
+|---|---|
+| Angkor Wat towers reflected in moat, sunrise | `609ea6da-1f75-4390-8e28-8566aa6e7137` |
+| Apsara bas-relief, tracking | `c97e1fba-e1e8-4a81-a345-b3bcd5111b90` |
+| Aerial over baray + canals + rice fields | `ccf01950-2909-4937-b81c-8515776dd4c7` |
+| Jungle roots reclaiming temple (Ta Prohm) | `66d732ed-9dae-49a5-a1ea-246cc4abdd1b` |
+| Bayon stone faces, golden hour reveal | `78ecf9fa-e785-435a-a9df-c1b05d0268ca` |
+
+Model note: Kling B-roll prompts with night/dim lighting trigger the "IN THE DARK" preset suggestion
+(id `24bae836-2c4a-48e0-89b6-49fcc0b21612`); decline with `declined_preset_id` and retry literal.
