@@ -86,3 +86,35 @@ generated for the full ~6:25 cut. URLs added as jobs complete — recover any mi
 
 Model note: Kling B-roll prompts with night/dim lighting trigger the "IN THE DARK" preset suggestion
 (id `24bae836-2c4a-48e0-89b6-49fcc0b21612`); decline with `declined_preset_id` and retry literal.
+
+## 🎥 SECOND B-ROLL BATCH — Kling 3.0 Turbo, 5s, 16:9 (18 clips, for fewer repeats)
+### Segment 1 — Flores
+| Shot | Job ID |
+|---|---|
+| N1f stone tool macro (brush reveals edge) | `925aaae7-4b59-444f-9efd-c259ddb9d429` |
+| N1g Flores coastline aerial | `48ee2b84-3fbf-4780-a6e2-f698aa7b3cca` |
+| N1h excavation grid + scale bar | `bcab66fb-f83d-417a-b1b6-fac3c66ca8b0` |
+| N1i floresiensis walking through forest | `c2225433-af86-4ba3-8ccb-34580c34fca3` |
+| N1j sunbeams through rainforest canopy | `613cd13e-eb4d-4e58-b82d-3794dbcb3a72` |
+### Segment 2 — Austronesian
+| Shot | Job ID |
+|---|---|
+| N2e crab-claw sail, full of wind | `2b283a35-128f-4147-a9b2-aca5a8515ab8` |
+| N2f stern POV, wake trailing | `a8aa42ab-d4ac-475e-a0c4-3c1c7c3c3efc` |
+| N2g island landfall on horizon | `bea245bc-4cd5-4357-ba25-b0a22ee0bd34` |
+| N2h terraced rice paddies aerial | `0025f8cc-b007-41a4-8b56-a6a7b55b42c4` |
+### Segment 3 — Naga
+| Shot | Job ID |
+|---|---|
+| N3e churning-of-the-ocean relief macro | `fe66154f-112d-4619-80f2-1b9c359d6739` |
+| N3f monsoon rain on the river | `214431eb-6ff9-40c9-b1f9-e4f3f561bea3` |
+| N3g floating candle offerings, night | `c49ee8b8-84bb-4fd1-85a3-f56c72d023bf` |
+| N3h wet Naga head macro | `5e2f4d4e-a75e-4f15-82ea-34a132edcd66` |
+### Segment 4 — Angkor
+| Shot | Job ID |
+|---|---|
+| N4f Angkor Wat silhouette, sunrise flare | `aed7831c-1cac-404e-919a-6fc27a47aef3` |
+| N4g apsara dancer carving macro | `59dae0e0-b01b-48d2-88f8-9b2fe25d8ef5` |
+| N4h drought: cracked reservoir bed | `ebc0111c-3d7f-4160-bf9c-2ccb93d32c7c` |
+| N4i monks on the causeway | `404d13b4-186a-4998-8cdf-1dc0dafdecd4` |
+| N4j aerial pull-back, whole complex | `f0478987-d824-4919-b3ef-e9c19cd3ec67` |
