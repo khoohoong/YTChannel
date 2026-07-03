@@ -34,16 +34,26 @@ The project began as a short **1:46 teaser** ("The Forgotten Worlds of Southeast
 - [x] Full 6:25 script written, **fact-checked against live sources, corrected, user-approved**
 - [x] Teaser edit timeline (`edit_timeline_short_v1.md`) — for the 1:46 cut only; reference, not final.
 
-### PROGRESS (updated 2026-07-02)
+### PROGRESS (updated 2026-07-03)
 1. [x] **Full ~6:25 Arthur VO** generated — 4 segment-aligned files (see `assets.md`, "FULL 6:25 PRODUCTION"). Model form is `text2speech_v2` + `variant: elevenlabs`.
 2. [x] **18 new B-roll clips** generated (Standard coverage) — reuse existing 8 videos + 4 stills; stills kept minimal per user.
-3. [x] **Full edit timeline written** — `edit_timeline_full_v2.md` (shot-by-shot, all 30 assets mapped to the 4 VO files).
-4. [ ] (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
+3. [x] **BUG FOUND & FIXED (2026-07-03):** every clip is a fixed **5 seconds**, but v2 of the
+   timeline assigned single clips to 8–15s slots — impossible without slowing them down. User
+   caught this. Fix chosen: **full 1× coverage**, not slow-mo.
+4. [x] **39 more B-roll clips generated** (third batch) — 85 visuals total now, enough to cover
+   the full 547s runtime with real 5s cuts and only light, intentional reuse (hero bookends +
+   a handful of atmospheric repeats). See `assets.md` "THIRD B-ROLL BATCH".
+5. [x] **N1a (Flores aerial) regenerated** — original had a visual glitch, replaced 2026-07-03.
+   `download_assets_full.sh` and `assets.md` point at the new URL.
+6. [x] **Timeline rebuilt as v3** — `edit_timeline_FINAL.md` now lists every clip at its real 5s
+   length, back-to-back, instead of stretching one clip across a long slot. This is the
+   authoritative timeline; `edit_timeline_full_v2.md` is superseded/kept for reference only.
+7. [ ] (Optional, user offered later) Draft YouTube **title / description / thumbnail** concept.
 
 **RUNTIME NOTE:** Arthur reads slower than estimated — final VO is **~9:06**, not 6:25. User chose to KEEP the ~9 min cut (2026-07-02). VO durations: A 2:41 · B 2:05 · C 1:43 · D 2:38.
 
-Coverage decision: user chose "Standard (~18 clips)" and "keep stills minimal". Do NOT add many stills.
-Everything to assemble the ~9 min cut now exists. Downloader: `download_assets_full.sh`.
+Coverage: 85 visuals total (46 original + 39 batch-3), full 1× coverage achieved. Not slow-mo.
+Everything to assemble the ~9 min cut now exists. Downloader: `download_assets_full.sh` (92 files).
 
 ## ⚠️ DO-NOT-MESS-UP NOTES
 - The **teaser VO (100s) is obsolete** — the full script is the source of truth. Don't ship the 100s track as the final.
@@ -57,6 +67,10 @@ Cinematic ancient-mystery documentary score; slow ~60–75 BPM building; low sus
 
 ## 📁 Files in this folder
 - `script.md` — corrected, approved 6:25 narration (source of truth)
-- `assets.md` — all existing asset URLs + Higgsfield job IDs
-- `download_assets.sh` — downloads the existing 12 visuals + teaser VO
-- `edit_timeline_short_v1.md` — the 1:46 teaser timeline (template for the full one)
+- `assets.md` — all asset URLs + Higgsfield job IDs (46 original + 39 batch-3 + N1a fix)
+- `download_assets.sh` — downloads only the original 12 teaser visuals + teaser VO (superseded)
+- `download_assets_full.sh` — downloads all 92 files for the full ~9:07 cut (use this one)
+- `edit_timeline_FINAL.md` — **v3, authoritative.** Real 5s-per-clip coverage, no impossible slots.
+- `edit_timeline_full_v2.md` — superseded (had the 8–15s-slot bug); kept for reference only
+- `edit_timeline_short_v1.md` — the 1:46 teaser timeline (early template, reference only)
+- `new_broll_batch3_jobids.md` — raw job-ID scratch notes from generating the third batch

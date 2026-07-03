@@ -37,7 +37,8 @@ assets=(
   "OB4_monk_corridor.mp4|$BASE/hf_20260625_053355_410a7799-ecfc-4a7c-a4f3-10c1a7672aae.mp4"
 
   # ---------- NEW B-ROLL: FLORES ----------
-  "N1a_flores_island_aerial.mp4|$BASE/hf_20260702_143624_fd69c041-feb7-4ada-9eda-3b5e00882601.mp4"
+  # N1a regenerated 2026-07-03 — original (fd69c041...) had a visual glitch, replaced.
+  "N1a_flores_island_aerial.mp4|$BASE/hf_20260703_130014_4186bdc9-c906-4a07-8b0b-af30d4722990.mp4"
   "N1b_liangbua_cave_mouth.mp4|$BASE/hf_20260702_143628_f9b97547-2c59-4339-ae2d-7a7e3325b0c7.mp4"
   "N1c_skull_scale.mp4|$BASE/hf_20260702_143456_e0a9f3c7-e7a1-4f4f-8f3d-9ee614d33102.mp4"
   "N1d_stegodon_dusk.mp4|$BASE/hf_20260702_143501_a1b19c84-e6d8-4fe8-8c79-ecfe2f020065.mp4"
@@ -88,6 +89,53 @@ assets=(
   "N4h_drought_cracked_earth.mp4|$BASE/hf_20260702_144947_ebc0111c-3d7f-4160-bf9c-2ccb93d32c7c.mp4"
   "N4i_monks_causeway.mp4|$BASE/hf_20260702_145043_404d13b4-186a-4998-8cdf-1dc0dafdecd4.mp4"
   "N4j_complex_pullback.mp4|$BASE/hf_20260702_144952_f0478987-d824-4919-b3ef-e9c19cd3ec67.mp4"
+
+  # ---------- THIRD B-ROLL BATCH: FLORES (full 1x coverage, 2026-07-03) ----------
+  "P1a_excavation_pit_wide.mp4|$BASE/hf_20260703_085715_3ccbd67d-e757-4f48-9402-da897cb0019c.mp4"
+  "P1b_sieving_sediment.mp4|$BASE/hf_20260703_085312_0f0a7e4e-bd41-4e3d-8865-b1f1c6858b9c.mp4"
+  "P1c_field_notebook_calipers.mp4|$BASE/hf_20260703_085317_9b7230af-924c-4a69-876b-c37468cbcf58.mp4"
+  "P1d_headlamp_cave_wall.mp4|$BASE/hf_20260703_085320_9e55ea9b-9141-469f-8925-4bf0e068d90a.mp4"
+  "P1e_stalactites_pool.mp4|$BASE/hf_20260703_085327_2589eb15-4a25-4082-a218-03375e5d12eb.mp4"
+  "P1f_floresiensis_hand_tool.mp4|$BASE/hf_20260703_085331_b051da7f-d3fd-4b32-9adc-34cdca26559c.mp4"
+  "P1g_komodo_dragon.mp4|$BASE/hf_20260703_085339_d0864116-ff1d-435d-bc0f-7e232c05acca.mp4"
+  "P1h_flores_crater_aerial.mp4|$BASE/hf_20260703_085349_01f56d1a-7422-4111-af92-84b126b82c99.mp4"
+  "P1i_bones_lab_table.mp4|$BASE/hf_20260703_085353_3913d3ef-83c2-48b0-a127-37154dbcf29c.mp4"
+  "P1j_giant_rat.mp4|$BASE/hf_20260703_085356_5ce4b318-c844-401b-baba-7bf06051aac2.mp4"
+  "P1k_storm_clouds_karst.mp4|$BASE/hf_20260703_085721_8c4e330c-8ff3-4743-a9da-25eea8a422f5.mp4"
+  "P1l_karst_timelapse.mp4|$BASE/hf_20260703_085401_567e712e-c79e-456a-9140-4efa3abc75c4.mp4"
+
+  # ---------- THIRD B-ROLL BATCH: AUSTRONESIAN ----------
+  "P2a_navigator_hand_stars.mp4|$BASE/hf_20260703_085405_ca1ceb1c-ffc4-49cb-9209-472bc8cce4c3.mp4"
+  "P2b_paddlers_rowing.mp4|$BASE/hf_20260703_085413_244f6d01-c005-45c4-8ef7-5611c055b88e.mp4"
+  "P2c_canoe_storm_swell.mp4|$BASE/hf_20260703_085416_e89cb9fb-7f43-4532-8fe0-204c029e4478.mp4"
+  "P2d_dolphins_hull.mp4|$BASE/hf_20260703_085421_447eb43d-8e40-4c9c-bcc6-46320dc904e8.mp4"
+  "P2e_family_cargo_canoe.mp4|$BASE/hf_20260703_085423_07330efb-f61b-407a-91e5-a2a85220d634.mp4"
+  "P2f_lapita_pottery.mp4|$BASE/hf_20260703_085642_06731ca3-2669-4154-ac6e-53de491b8c34.mp4"
+  "P2g_tattooed_navigator_portrait.mp4|$BASE/hf_20260703_085646_fd638d3d-e508-4c7c-8172-26dfe02cd6e3.mp4"
+  "P2h_canoe_ashore_footprints.mp4|$BASE/hf_20260703_085725_90ddfcfc-592d-47fa-8999-02dc267ebcbd.mp4"
+
+  # ---------- THIRD B-ROLL BATCH: NAGA ----------
+  "P3a_underwater_serpent_shadow.mp4|$BASE/hf_20260703_085731_7420e428-b735-43b8-847f-e350364f7d19.mp4"
+  "P3b_naga_temple_mural.mp4|$BASE/hf_20260703_085739_e3009658-cb77-46fb-8455-20b7dfede9d9.mp4"
+  "P3c_buddha_naga_hood.mp4|$BASE/hf_20260703_085743_de85c106-e47b-43ec-8a92-08428d1a2f58.mp4"
+  "P3d_monk_incense_riverside.mp4|$BASE/hf_20260703_085747_1754e33d-c0fa-447c-b913-f45061026fef.mp4"
+  "P3e_king_cobra.mp4|$BASE/hf_20260703_085755_e4f1bffc-e71f-4ffe-b459-e84359c02907.mp4"
+  "P3f_mekong_delta_aerial.mp4|$BASE/hf_20260703_085759_25b348a1-7169-426d-925e-b403242d90a1.mp4"
+  "P3g_lightning_over_river.mp4|$BASE/hf_20260703_085805_1601df93-1293-4169-bf55-5f6d7e1d4d87.mp4"
+  "P3h_fisherman_net_dawn.mp4|$BASE/hf_20260703_085812_4415cf18-62ab-4643-a02e-9acb1c5b52f3.mp4"
+
+  # ---------- THIRD B-ROLL BATCH: ANGKOR ----------
+  "P4a_stonemasons_carving.mp4|$BASE/hf_20260703_085927_e9ff6849-53bb-4c2b-b367-87b94a9f43f6.mp4"
+  "P4b_elephants_hauling_stone.mp4|$BASE/hf_20260703_085822_30b486c0-e183-4d0c-abd3-9db755358654.mp4"
+  "P4c_long_colonnade_corridor.mp4|$BASE/hf_20260703_085932_7b854bcf-91ab-4cff-a5af-a9d8511f2fc5.mp4"
+  "P4d_dim_inner_sanctum.mp4|$BASE/hf_20260703_085834_b13e7af6-016a-44a7-b6d6-777fb8d04bb0.mp4"
+  "P4e_lotus_pond_towers.mp4|$BASE/hf_20260703_085935_c3fc609c-404c-45fd-be38-7b1255170d10.mp4"
+  "P4f_devata_macro.mp4|$BASE/hf_20260703_085839_c4299a4b-001f-4ffd-9e53-5caa7cc887d6.mp4"
+  "P4g_monk_silhouette_sunset.mp4|$BASE/hf_20260703_085842_05cd8b47-96a0-4553-a201-e22cb09b2a04.mp4"
+  "P4h_angkor_thom_gate_aerial.mp4|$BASE/hf_20260703_085848_b26dfd11-013b-4c89-88d8-b72e6cf77d78.mp4"
+  "P4i_rain_temple_stone.mp4|$BASE/hf_20260703_085851_9a8301ac-89f9-424b-8bca-2453aaba429c.mp4"
+  "P4j_star_trails_towers.mp4|$BASE/hf_20260703_085855_fddb61c4-63cf-46ee-a469-8dab335a3c12.mp4"
+  "P4k_toppled_stones_ruin.mp4|$BASE/hf_20260703_085858_9f4175e3-a0dc-4cf7-a239-b140dad2dfba.mp4"
 )
 
 echo "Downloading ${#assets[@]} assets into ./$OUT/ ..."
