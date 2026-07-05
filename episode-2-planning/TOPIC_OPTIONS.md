@@ -29,6 +29,9 @@ Malacca (Ep 2) → White Rajahs (Ep 3) → The Split (Ep 4). Cleaner as a "histo
 arc, but leads with the weaker thumbnail and delays the best hook.
 
 ## OPTION C — Standalone: "The Empire That Vanished: Srivijaya"
+> **UPDATE 2026-07-05:** user asked for a trilogy built on this option — full series plan now in
+> `VANISHED_KINGDOMS_TRILOGY.md` (Srivijaya → Champa → Majapahit). That file supersedes the
+> standalone framing below.
 A maritime empire that dominated SE Asia for 600 years — and was so completely forgotten that
 historians only rediscovered it existed in 1918. Strong "lost world" hook, continues Episode 1's
 region-wide deep-history lane. Downside: sparse visual record (mostly water, ships, Palembang),
