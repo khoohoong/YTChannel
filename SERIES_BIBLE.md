@@ -49,4 +49,6 @@
 | Ep | Title | Runtime | Status |
 |---|---|---|---|
 | 1 | The TRUE Origin of Southeast Asia | ~9:06 | Delivered |
-| 2 | _tbd_ | — | Planning |
+| 2 | The Empire That VANISHED for 600 Years (Srivijaya) — Vanished Kingdoms 1/3 | ~8:30 est. | Script drafted, awaiting approval |
+| 3 | Champa — Vanished Kingdoms 2/3 | — | Series plan only |
+| 4 | Majapahit — Vanished Kingdoms 3/3 | — | Series plan only |

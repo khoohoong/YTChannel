@@ -47,8 +47,10 @@ Never generate visuals before the VO exists and is measured.
 ## Status
 - **Episode 1** — "The TRUE Origin of Southeast Asia" (~9:06) — delivered. Assets, timeline, maps,
   thumbnails, and YouTube packaging are all in its folder.
-- **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
-  (outline → fact-check → script) before any generation.
+- **Episode 2** — Srivijaya, part 1 of the "Vanished Kingdoms" trilogy (Srivijaya → Champa →
+  Majapahit; plan in `episode-2-planning/VANISHED_KINGDOMS_TRILOGY.md`). Script drafted and
+  fact-checked in `the-empire-that-vanished-srivijaya/script.md` — **awaiting user approval
+  before VO** (Phase 1 gate). See that folder's README for status.
 
 ## Starting a new episode
 Say: *"Read the playbook and bible, then start Episode 2 on [topic]."* Reuse Arthur, the style
