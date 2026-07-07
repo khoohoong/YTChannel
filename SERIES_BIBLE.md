@@ -60,6 +60,6 @@
 | Ep | Title | Runtime | Status |
 |---|---|---|---|
 | 1 | The TRUE Origin of Southeast Asia | ~9:06 | Delivered |
-| 2 | The Empire That VANISHED for 600 Years (Srivijaya) — Vanished Kingdoms 1/3 | **8:27 measured** | VO done; awaiting go for visuals batch |
+| 2 | The Empire That VANISHED for 600 Years (Srivijaya) — Vanished Kingdoms 1/3 | **8:27 measured** | All assets delivered; user assembling (timeline + download center in folder) |
 | 3 | Champa — Vanished Kingdoms 2/3 | — | Series plan only |
 | 4 | Majapahit — Vanished Kingdoms 3/3 | — | Series plan only |

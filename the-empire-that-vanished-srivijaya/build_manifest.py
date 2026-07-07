@@ -102,11 +102,11 @@ VO = [
 # 2K upscales of the approved heroes — USE THESE in the edit, not the 720p originals.
 # (ts filled after collection; None = pending)
 UPSCALES = [
- ("H1-2K", None, "1fc73685-9812-4dd9-8234-b59834ce1e12","mp4","HERO A upscaled 2K — use in edit"),
- ("H2-2K", None, "d119009b-0075-4058-81ee-5d6905872aff","mp4","HERO B upscaled 2K — use in edit"),
- ("H3-2K", None, "ce568383-3409-4b0d-873d-3825b3b5f6ca","mp4","HERO C upscaled 2K — use in edit"),
- ("H4-2K", None, "66d40ca9-9291-44bd-907f-f9fa1921c55a","mp4","HERO D upscaled 2K — use in edit"),
- ("H5-2K", None, "135816bf-d5fb-4891-9e7d-b7d7c37fcc5f","mp4","HERO E upscaled 2K — use in edit"),
+ ("H1-2K","080350", "1fc73685-9812-4dd9-8234-b59834ce1e12","mp4","HERO A upscaled 2K — use in edit"),
+ ("H2-2K","052553", "d119009b-0075-4058-81ee-5d6905872aff","mp4","HERO B upscaled 2K — use in edit"),
+ ("H3-2K","080352", "ce568383-3409-4b0d-873d-3825b3b5f6ca","mp4","HERO C upscaled 2K — use in edit"),
+ ("H4-2K","080354", "66d40ca9-9291-44bd-907f-f9fa1921c55a","mp4","HERO D upscaled 2K — use in edit"),
+ ("H5-2K","052559", "135816bf-d5fb-4891-9e7d-b7d7c37fcc5f","mp4","HERO E upscaled 2K — use in edit"),
 ]
 
 MAPS = [

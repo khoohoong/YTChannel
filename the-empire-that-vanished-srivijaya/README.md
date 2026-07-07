@@ -28,11 +28,23 @@
       5 Nano stills + 71 Kling B-roll), plus 4 maps rendered in code (`maps/map_clips/`,
       geography verified). Actual spend ~675 credits incl. VO; balance after 4,186.9.
       All URLs + job IDs in `assets.md`; browse everything in `review_center.html`.
-- [ ] **Phase 5 gate: USER REVIEW of all visuals — AWAITING.** Flag glitches by label
-      (e.g. "B7 bad") → regenerate flagged clips (7.5 cr each).
-- [ ] After review: upscale approved heroes H1–H5 to 1080p+ (Seedance defaulted to 720p;
-      re-rolling at 1080p would change content, so upscale the approved takes instead).
-- [ ] Phase 6 — edit timeline against measured VO + final download center.
+- [x] Phase 5 — review DONE (user, 2026-07-07). 9 clips regenerated across 2 rounds:
+      B10/E16/E4/E5 (ethnicity, floating magnifier, blank papers) + C3/C4/C6/C9/D11
+      (explicit Tamil/Indonesian). ~67.5 cr. Lessons written into SERIES_BIBLE.
+- [x] Heroes H1–H5 upscaled to **2K** (bytedance aigc preset) — job IDs + URLs in assets.md.
+      **Use the H#-2K files in the edit, not the 720p originals.**
+- [x] Phase 6 — `edit_timeline_FINAL.md` (87 rows against measured VO, 8:27) +
+      `download_center.html` (91 files: 5 VO + 5 2K heroes + 81 visuals; maps live in
+      `maps/map_clips/` in the repo).
+- [ ] USER: download all files via `download_center.html`, source the music bed
+      (brief below), assemble per the timeline.
+- [ ] Optional next: YouTube packaging (title/description/tags) + thumbnail build —
+      ask Claude to run the Ep 1 `thumbnail_build.py` pattern with S5 as the base plate.
+
+## 🎵 Music brief (external — tools can't generate music)
+Bible brief applies: cinematic ancient-mystery, ~60–75 BPM, low strings/drones, soft world
+percussion, SE-Asian flute/bamboo. Ep 2 arc: A mysterious pulse → B warmth (swell at MAP2) →
+C war drums (hit at MAP3) → D hollow decay → E reveal swell, gamelan note out. ~8:40 needed.
 
 ## ⚠️ DO-NOT-MESS-UP NOTES
 - Script claims are phrased carefully (e.g. king's capture attributed to chronicles; "only

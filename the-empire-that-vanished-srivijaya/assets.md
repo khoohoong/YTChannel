@@ -23,6 +23,15 @@ VO-B — if mangled, regenerate that block with a phonetic spelling in the promp
 - Review page: `review_center.html` (regenerate anytime with `python3 build_manifest.py`)
 - Actual spend this phase (VO + all visuals): **~675 credits** · balance after: 4,186.9
 
+## HERO UPSCALES (bytedance 2K, aigc preset — these replace the 720p heroes in the edit)
+| File | Note | Job ID | URL |
+|---|---|---|---|
+| H1-2K | 2K upscale of H1 — USE IN EDIT | `1fc73685-9812-4dd9-8234-b59834ce1e12` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_080350_1fc73685-9812-4dd9-8234-b59834ce1e12.mp4 |
+| H2-2K | 2K upscale of H2 — USE IN EDIT | `d119009b-0075-4058-81ee-5d6905872aff` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_052553_d119009b-0075-4058-81ee-5d6905872aff.mp4 |
+| H3-2K | 2K upscale of H3 — USE IN EDIT | `ce568383-3409-4b0d-873d-3825b3b5f6ca` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_080352_ce568383-3409-4b0d-873d-3825b3b5f6ca.mp4 |
+| H4-2K | 2K upscale of H4 — USE IN EDIT | `66d40ca9-9291-44bd-907f-f9fa1921c55a` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_080354_66d40ca9-9291-44bd-907f-f9fa1921c55a.mp4 |
+| H5-2K | 2K upscale of H5 — USE IN EDIT | `135816bf-d5fb-4891-9e7d-b7d7c37fcc5f` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_052559_135816bf-d5fb-4891-9e7d-b7d7c37fcc5f.mp4 |
+
 | Label | Shot | Job ID | URL |
 |---|---|---|---|
 | H1 | HERO A: diver's hand + gold ring, night torchlight | `c72400e2-9b88-446d-8809-24e9c6cbb500` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_025801_c72400e2-9b88-446d-8809-24e9c6cbb500.mp4 |
