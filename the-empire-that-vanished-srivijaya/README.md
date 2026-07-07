@@ -23,10 +23,16 @@
 - [x] Phase 3 — shot budget + full prompt-level shot list → `shot_list.md`:
       **71 Kling B-roll + 5 Seedance heroes + 5 Nano Banana stills + 4 code maps ≈ ~575–650
       credits** (balance 4,862 at check).
-- [ ] **Phase 4 gate: user go-ahead for the ~600-credit generation batch — AWAITING.**
-- [ ] Phase 4 — generate one clean batch (style prefix; ⚠-marked prompts carry
-      `declined_preset_id`). Render 4 maps in code (free).
-- [ ] Phase 5 — review every clip. Phase 6 — timeline + download center.
+- [x] Phase 4 gate: user approved batch ("ok lets go", 2026-07-07).
+- [x] Phase 4 — **COMPLETE 2026-07-07. All 81 jobs succeeded, 0 failures** (5 Seedance heroes +
+      5 Nano stills + 71 Kling B-roll), plus 4 maps rendered in code (`maps/map_clips/`,
+      geography verified). Actual spend ~675 credits incl. VO; balance after 4,186.9.
+      All URLs + job IDs in `assets.md`; browse everything in `review_center.html`.
+- [ ] **Phase 5 gate: USER REVIEW of all visuals — AWAITING.** Flag glitches by label
+      (e.g. "B7 bad") → regenerate flagged clips (7.5 cr each).
+- [ ] After review: upscale approved heroes H1–H5 to 1080p+ (Seedance defaulted to 720p;
+      re-rolling at 1080p would change content, so upscale the approved takes instead).
+- [ ] Phase 6 — edit timeline against measured VO + final download center.
 
 ## ⚠️ DO-NOT-MESS-UP NOTES
 - Script claims are phrased carefully (e.g. king's capture attributed to chronicles; "only
