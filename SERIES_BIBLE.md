@@ -17,8 +17,19 @@
   > "Photorealistic cinematic [shot], [subject + action], [lighting], [camera move],
   >  high-end nature-documentary realism, 4K, no text."
 - **Always mute** the generated clip audio in the edit; VO + music bed only.
-- **Preset trap:** dim/night/underwater/fire/candle/star prompts trigger the "IN THE DARK" preset.
-  Pass `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612` on those from the start.
+- **Preset trap:** dim/night/underwater/fire/candle/star prompts trigger the "IN THE DARK" preset —
+  and in Ep 2 even "glittering gold dust" and "monk at a ship's rail" triggered it. **Pass
+  `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612` on EVERY video prompt,
+  unconditionally.** It has zero downside.
+- **People prompts must state ethnicity explicitly** (Ep 2 review catch): models default to
+  Western-looking people. Locals in this series → "Southeast Asian Malay/Indonesian, dark hair,
+  brown skin"; specify period dress too. Only omit when the character *should* be foreign
+  (e.g. the French scholar, a Chola emperor — still say so explicitly).
+- **Held objects need a holder** (Ep 2 catch): "a magnifier moving across documents" animates the
+  object moving BY ITSELF. Write "a hand holding/moving the [object]".
+- **The "no text" style suffix makes documents/papers render BLANK** (Ep 2 catch): for shots that
+  need visible writing, drop "no text" and write "covered in faint illegible ancient script,
+  blurred and unreadable" instead — you get texture without gibberish.
 - Cost ≈ 7.5 credits per Kling 5s clip. Check `balance` before a big batch.
 
 ## MAPS & INFOGRAPHICS

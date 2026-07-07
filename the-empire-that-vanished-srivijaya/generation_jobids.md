@@ -104,3 +104,13 @@ triggered it. From Block B on, pre-decline on any dusk/dawn/night/torch/fire/dar
 - E16 `d57c02ea-870f-448d-9ee8-febcfac82dbb`
 
 **BATCH COMPLETE 2026-07-07: 81 jobs fired (5 Seedance + 5 stills + 71 Kling). ~655 credits.**
+
+## PHASE 5 REVIEW FIXES (user review 2026-07-07)
+User flagged: B10 + E16 people not Asian (prompts lacked ethnicity — model defaulted Western);
+E4 magnifier moving by itself (no hand in prompt); E5 paper fragments blank (the "no text"
+style suffix blanked the documents). Replacements (~30 cr):
+- B10 v2 `d61d2307-9719-4505-88f4-89b49a6dfd8d` — Malay goldsmith, explicit ethnicity
+- E16 v2 `ad9ce9e9-5110-40cd-8117-63f3997b8293` — Indonesian child, explicit ethnicity
+- E4 v2 `0193efbc-785a-4043-bff8-de968fde8af4` — hand HOLDING the magnifier
+- E5 v2 `ba5d79f1-13e8-4526-b38f-2acff65a0c4b` — fragments covered in illegible ancient script
+Old v1 job IDs remain above for reference; superseded.
