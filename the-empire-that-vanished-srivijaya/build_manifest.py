@@ -57,7 +57,15 @@ MANIFEST = [
  ("C6","030111","be662f41-e2c4-4729-a96a-a9e7474b9426","mp4","below deck: oars heaving to drumbeat"),
  ("C7","030113","ebca59ce-9fea-4f58-9365-575b089cb677","mp4","flaming arrows over black water"),
  ("C8","030115","3f196d68-4954-4381-8e2d-a7be6842a6aa","mp4","warehouse collapsing in flames"),
- # C9-C11, D1-D13, E1-E16 appended when collected
+ ("C9","030117","097a9dc5-62d2-491b-ab6e-0116043f02eb","mp4","soldiers hauling treasure through smoke"),
+ ("C10","030119","8f8949f6-66b5-48b5-b44a-3e0a0e53d7df","mp4","empty throne in smoke-hazed hall"),
+ ("C11","030120","4112f02d-9213-4beb-90c1-e9ea609ab783","mp4","broken mast drifting on grey swell"),
+ ("D1","030143","987af407-7f43-43d6-90a2-f80e9e2fb7da","mp4","rival Javanese port booming"),
+ ("D2","030145","fabf4eeb-afd2-4f89-93c8-62eb7d803117","mp4","empty berths, weeds in the boardwalk"),
+ ("D3","030147","9c46b428-aeb4-4728-9f38-9b7af3223370","mp4","Javanese war fleet enters river mouth (1377)"),
+ ("D4","030149","43337dbb-a02e-4373-ae58-56f582f0ebc8","mp4","riverside raid at dusk, torches reflected"),
+ ("D5","030151","9965bade-5851-44db-a3d5-a45eccb8cfe4","mp4","river delta aerial, silt plumes"),
+ # C9, D6-D13, E1-E16 appended when collected
 ]
 
 MAPS = [
@@ -69,6 +77,64 @@ MAPS = [
 
 def url(ts, jid, ext): return f"{BASE}hf_{DAY}_{ts}_{jid}.{ext}"
 
+BLOCK_NAMES = {
+ "H":"HERO SHOTS (Seedance, 720p — approved keepers get upscaled)",
+ "S":"STILLS (Nano Banana, 2K)",
+ "A":"BLOCK A — Hook + The Choke Point (VO-A, 1:48)",
+ "B":"BLOCK B — The Floating Empire (VO-B, 1:53)",
+ "C":"BLOCK C — The Enemy from the West (VO-C, 1:23)",
+ "D":"BLOCK D — The Vanishing (VO-D, 1:33)",
+ "E":"BLOCK E — The Resurrection + CTA (VO-E, 1:49)",
+}
+
+def block_of(label):
+    return label[0] if label[0] in "HS" else label[0]
+
+def write_html(path="review_center.html"):
+    import html as H
+    groups = {}
+    for row in MANIFEST:
+        groups.setdefault(block_of(row[0]), []).append(row)
+    parts = ["""<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP2 Srivijaya — Review &amp; Download Center</title>
+<style>
+ body{background:#0E272E;color:#F4CE86;font-family:Georgia,serif;margin:0;padding:24px;}
+ h1{font-size:22px} h2{color:#E0A44E;border-bottom:1px solid #243A40;padding-bottom:6px;margin-top:36px}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+ .card{background:#122E36;border:1px solid #243A40;border-radius:10px;padding:10px}
+ .card video,.card img{width:100%;border-radius:6px;background:#000}
+ .lbl{font-weight:bold;color:#F4CE86} .desc{font-size:13px;color:#cbb37a;margin:6px 0}
+ a{color:#E0A44E} .dl{font-size:13px}
+ .note{background:#16323A;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.5}
+</style></head><body>
+<h1>THE EMPIRE THAT VANISHED — Episode 2 visual review</h1>
+<div class="note">How to review: play each clip. Anything with a glitch, wrong era, gibberish
+text, or a broken face — note its label (e.g. "B7 bad") and send the list back. Approved heroes
+(H1–H5) get upscaled to full HD before the edit. To save a file: right-click the download link →
+"Save Link As…". Links expire after a while — if one dies, the job ID in assets.md re-fetches it.</div>"""]
+    for key in ["H","S","A","B","C","D","E"]:
+        if key not in groups: continue
+        parts.append(f"<h2>{H.escape(BLOCK_NAMES[key])}</h2><div class='grid'>")
+        for label, ts, jid, ext, desc in groups[key]:
+            u = url(ts, jid, ext)
+            media = (f"<video src='{u}' controls muted preload='none'></video>" if ext=="mp4"
+                     else f"<img src='{u}' loading='lazy'>")
+            parts.append(f"<div class='card'><div class='lbl'>{label}</div>{media}"
+                         f"<div class='desc'>{H.escape(desc)}</div>"
+                         f"<div class='dl'><a href='{u}' download>download {label}.{ext}</a></div></div>")
+        parts.append("</div>")
+    parts.append("""<h2>MAPS (rendered in code — also in the repo under maps/map_clips/)</h2>
+<div class="note">Maps are local repo files, not CloudFront links — they never expire. Geography
+verified against Natural Earth data. Labels get added in the edit.</div>""")
+    parts.append("<ul>")
+    for name, path_, desc in MAPS:
+        parts.append(f"<li><b>{name}</b> — {desc} — <code>{path_}</code></li>")
+    parts.append("</ul></body></html>")
+    open(path,"w").write("\n".join(parts))
+    print(f"wrote {path} ({len(MANIFEST)} assets)")
+
 if __name__ == "__main__":
     for label, ts, jid, ext, desc in MANIFEST:
         print(f"| {label} | {desc} | `{jid}` | {url(ts,jid,ext)} |")
+    write_html()
