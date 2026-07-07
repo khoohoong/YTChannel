@@ -42,7 +42,7 @@ MANIFEST = [
  ("B7","025959","cdf72049-0318-46b0-a9b9-eda8ea150c5c","mp4","merchant fleet at anchor, waiting"),
  ("B8","030001","ed35e6e3-5610-46a6-8239-4eee8478f813","mp4","palms bending as the wind shifts"),
  ("B9","030032","b69a5bac-01e0-49b3-a9be-1553ac9ad4b4","mp4","gold panning in jungle stream"),
- ("B10","030010","e1cd02f7-08e2-47ab-a02d-8bc2f9b8be58","mp4","goldsmith at forge, sparks"),
+ ("B10","041355","d61d2307-9719-4505-88f4-89b49a6dfd8d","mp4","Malay goldsmith at forge, sparks (v2: ethnicity fixed)"),
  ("B11","030033","a8025783-84aa-4503-8238-5cb6dd4dfbd3","mp4","Chinese monk at ship's rail (Yijing)"),
  ("B12","030013","a9dedd00-f184-44a3-8024-b78ebca946ef","mp4","stylus inscribing palm-leaf manuscript"),
  ("B13","030016","bf5189a9-b985-471b-abbe-86b24d74a254","mp4","oil lamps along monastery terrace, night"),
@@ -76,8 +76,8 @@ MANIFEST = [
  ("E1","030234","705bfdb5-a03a-4a90-9c82-ede72a90934f","mp4","imperial Chinese archive scroll"),
  ("E2","030236","0d85f78e-13e1-41b2-8856-b1fc09b3f462","mp4","inscribed stone stele in jungle clearing"),
  ("E3","030238","aba27435-0be6-4f33-9c98-ce03fd25c59e","mp4","charcoal rubbing reveals ancient script"),
- ("E4","030240","8ecb6ef5-3a19-4638-bc8a-2971da310f62","mp4","1910s study, lamp + magnifier (Coedes mood)"),
- ("E5","030242","7ddb2800-12cf-4814-ac95-0d53e8ccc364","mp4","overhead: fragments aligning on desk"),
+ ("E4","041358","0193efbc-785a-4043-bff8-de968fde8af4","mp4","1910s study: hand holding magnifier over documents (v2: hand added)"),
+ ("E5","041400","ba5d79f1-13e8-4526-b38f-2acff65a0c4b","mp4","overhead: inscribed fragments aligning on desk (v2: script visible)"),
  ("E6","030244","9afe7a4a-328c-482b-851b-4aad69ff5265","mp4","scholar's eyes widening (generic figure)"),
  ("E7","030246","0d4d68dd-47d3-4e35-ade1-8bcf82b2c446","mp4","dredger crane on river at dusk"),
  ("E8","030248","147a36b9-7723-42ee-bf87-7b2a298cb537","mp4","diver back-rolls into brown water"),
@@ -88,7 +88,7 @@ MANIFEST = [
  ("E13","030304","f0be0626-679e-4e16-9d44-06b737ca9418","mp4","lantern boats on dark water"),
  ("E14","030306","0aea0523-7e3d-4cb1-b7eb-415a4faea1f6","mp4","brick temple tower at blood-red dusk (Champa tease)"),
  ("E15","030308","b5e80999-92a0-4443-badc-a7afd9e4ed63","mp4","wave erasing script written in sand"),
- ("E16","030310","d57c02ea-870f-448d-9ee8-febcfac82dbb","mp4","child holds gold bead up to the sun"),
+ ("E16","041356","ad9ce9e9-5110-40cd-8117-63f3997b8293","mp4","Indonesian child holds gold bead to the sun (v2: ethnicity fixed)"),
 ]
 
 MAPS = [
