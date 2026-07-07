@@ -1,6 +1,6 @@
 # EPISODE 2 SCRIPT — "The Empire That VANISHED for 600 Years" (Srivijaya)
 ### Series: The Vanished Kingdoms — Part 1 of 3
-### STATUS: **DRAFT v1 — awaiting user approval. Do NOT generate VO until approved (Phase 1 gate).**
+### STATUS: **APPROVED by user 2026-07-06 (v1 + item-#5 wording swap). Phase 1 locked — this text is the source of truth.**
 
 - Narrator: **Arthur** (settings in SERIES_BIBLE.md). One VO file per block (A–E).
 - Narration word count: **~1,160 words** → at Arthur's measured 130–140 wpm ≈ **8:20–8:55**.
@@ -33,7 +33,7 @@ of sail, this was the only practical sea road between China and everything west 
 Arabia, and beyond. Silk went one way. Spices, ivory and incense went the other.
 
 And there was no way around. Every ship, every cargo, every fortune had to pass through a
-corridor that narrows to little more than the width of the English Channel.
+corridor that, at its narrowest, forces the ships of the world into almost single file.
 
 Now imagine you own the toll gate.
 
@@ -142,7 +142,7 @@ watched. Subscribe, so you don't miss it.
 | 2 | Srivijaya dominant ~7th–13th c. ("six hundred years") | ✅ VERIFIED 2026-07-05 | Wikipedia (Srivijaya); EBSCO |
 | 3 | Forgotten until Cœdès postulated it in 1918 from inscriptions + Chinese records | ✅ VERIFIED 2026-07-05 | Wikipedia; Journal of the Siam Society |
 | 4 | Strait of Malacca = only practical China↔India sea route in age of sail | ✅ VERIFIED (standard geography) | Britannica; kept as "only practical," not "only possible" |
-| 5 | Strait narrows to ~width of English Channel | ✅ CHECKED | Strait min ≈ 65 km navigable region (Phillip Channel ~2.8 km shipping lane); Dover Strait ≈ 33 km. Comparison phrased loosely ("little more than the width of") — **review wording**; alternative: "narrows to a corridor ships must share single-file." Flag for user choice. |
+| 5 | Strait "forces ships into almost single file" at its narrowest | ✅ RESOLVED 2026-07-06 | Swapped per approval. Phillip Channel navigable lane ~2.8 km — "almost single file" is fair for the narrowest passage. |
 | 6 | Name = Sanskrit "Glorious Victory" (śrī + vijaya) | ✅ VERIFIED (standard etymology) | Wikipedia (Srivijaya) |
 | 7 | Capital near modern Palembang; wooden/stilt/raft city, no stone walls; little masonry survives | ✅ VERIFIED 2026-07-05 | Wikipedia; Live Science ("floating kingdom") |
 | 8 | Austronesian-descended population (Ep 1 callback) | ✅ VERIFIED | Malay = Austronesian family (Ep 1 research) |
@@ -155,7 +155,7 @@ watched. Subscribe, so you don't miss it.
 | 15 | "As long as the distance between us and the Middle Ages" (600 yrs) | ✅ ARITHMETIC | 2026 − 600 = 1426 ✓ late Middle Ages |
 | 16 | "Longer than Rome" for Champa tease (1,600+ yrs) | ⚠️ CAREFUL PHRASING | Rome city-to-Western-fall 753 BCE–476 CE ≈ 1,229 yrs; Champa 192–1832 = 1,640 yrs ✓ vs Western empire. Byzantium (to 1453) would beat it — script says "longer than Rome," defensible for the Western empire; revisit in Ep 3 script |
 
-**Approval checklist:** ☐ user approves script text · ☐ item #5 wording choice · then → Phase 2 (VO + measure).
+**Approval checklist:** ✅ user approved 2026-07-06 · ✅ item #5 resolved (single-file wording) · → Phase 2 (VO + measure) underway.
 
 ## PRODUCTION NOTES (for Phase 3–4, after VO is measured)
 - **Maps (code renderer, no text — labels in edit):** MAP1 strait choke point + trade routes
