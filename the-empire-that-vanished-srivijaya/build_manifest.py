@@ -91,6 +91,24 @@ MANIFEST = [
  ("E16","041356","ad9ce9e9-5110-40cd-8117-63f3997b8293","mp4","Indonesian child holds gold bead to the sun (v2: ethnicity fixed)"),
 ]
 
+VO = [
+ ("VO-A","025012","8014b01e-9669-4de4-88a0-39f26a58cdcb","mp3","Hook + The Choke Point (1:48.2)"),
+ ("VO-B","025018","bf23bed2-b9e6-4b67-95eb-fde994dd802b","mp3","The Floating Empire (1:52.9)"),
+ ("VO-C","025023","f76a2355-61e3-4423-8683-45dbafdfe69a","mp3","The Enemy from the West (1:22.8)"),
+ ("VO-D","025028","da880b12-62bd-4f2f-a71b-96e58244a748","mp3","The Vanishing (1:33.4)"),
+ ("VO-E","025034","a277723c-daee-4350-8823-462730384392","mp3","The Resurrection + CTA (1:49.4)"),
+]
+
+# 2K upscales of the approved heroes — USE THESE in the edit, not the 720p originals.
+# (ts filled after collection; None = pending)
+UPSCALES = [
+ ("H1-2K", None, "1fc73685-9812-4dd9-8234-b59834ce1e12","mp4","HERO A upscaled 2K — use in edit"),
+ ("H2-2K", None, "d119009b-0075-4058-81ee-5d6905872aff","mp4","HERO B upscaled 2K — use in edit"),
+ ("H3-2K", None, "ce568383-3409-4b0d-873d-3825b3b5f6ca","mp4","HERO C upscaled 2K — use in edit"),
+ ("H4-2K", None, "66d40ca9-9291-44bd-907f-f9fa1921c55a","mp4","HERO D upscaled 2K — use in edit"),
+ ("H5-2K", None, "135816bf-d5fb-4891-9e7d-b7d7c37fcc5f","mp4","HERO E upscaled 2K — use in edit"),
+]
+
 MAPS = [
  ("MAP1","maps/map_clips/MAP1_strait_routes.mp4","20s — trade routes converge on the strait"),
  ("MAP2","maps/map_clips/MAP2_srivijaya_network.mp4","20s — the port network lights up (reprise in VO-E)"),
@@ -157,7 +175,51 @@ verified against Natural Earth data. Labels get added in the edit.</div>""")
     open(path,"w").write("\n".join(parts))
     print(f"wrote {path} ({len(MANIFEST)} assets)")
 
+def write_download_center(path="download_center.html"):
+    import html as H
+    rows = VO + [u for u in UPSCALES if u[1]] + MANIFEST
+    parts = ["""<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP2 Srivijaya — Download Center</title>
+<style>
+ body{background:#0E272E;color:#F4CE86;font-family:Georgia,serif;margin:0;padding:24px;max-width:900px}
+ h1{font-size:22px} .note{background:#16323A;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.6}
+ table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}
+ td,th{border-bottom:1px solid #243A40;padding:8px 6px;text-align:left;vertical-align:top}
+ a{color:#E0A44E} .done{opacity:.45} code{color:#cbb37a}
+ progress{width:160px}
+ #bar{position:sticky;top:0;background:#0E272E;padding:10px 0}
+</style></head><body>
+<h1>THE EMPIRE THAT VANISHED — all files for the edit</h1>
+<div class="note"><b>How to use:</b> right-click each "save" link → <b>Save Link As…</b> and keep the
+suggested filename. Tick the box as you go — progress is saved in your browser. Use the
+<b>H#-2K upscaled heroes</b>, not the 720p originals. The 4 map clips are in the repo folder
+<code>maps/map_clips/</code> (they never expire). If a link has expired, ask Claude to re-fetch —
+every job ID is in assets.md.</div>
+<div id="bar"><progress id="p" max="0" value="0"></progress> <span id="ptext"></span></div>
+<table><tr><th></th><th>File</th><th>What it is</th><th></th></tr>"""]
+    for label, ts, jid, ext, desc in rows:
+        u = url(ts, jid, ext)
+        fname = f"EP2_{label}.{ext}"
+        parts.append(f"<tr id='r{label}'><td><input type='checkbox' data-k='{label}'></td>"
+                     f"<td><b>{label}</b></td><td>{H.escape(desc)}</td>"
+                     f"<td><a href='{u}' download='{fname}'>save {fname}</a></td></tr>")
+    parts.append("""</table>
+<script>
+const boxes=[...document.querySelectorAll('input[type=checkbox]')];
+const p=document.getElementById('p'),pt=document.getElementById('ptext');p.max=boxes.length;
+function upd(){const n=boxes.filter(b=>b.checked).length;p.value=n;
+ pt.textContent=n+" / "+boxes.length+" downloaded";
+ boxes.forEach(b=>b.closest('tr').classList.toggle('done',b.checked));}
+boxes.forEach(b=>{b.checked=localStorage.getItem('ep2_'+b.dataset.k)==='1';
+ b.onchange=()=>{localStorage.setItem('ep2_'+b.dataset.k,b.checked?'1':'0');upd();};});
+upd();
+</script></body></html>""")
+    open(path,"w").write("\n".join(parts))
+    print(f"wrote {path} ({len(rows)} files)")
+
 if __name__ == "__main__":
     for label, ts, jid, ext, desc in MANIFEST:
         print(f"| {label} | {desc} | `{jid}` | {url(ts,jid,ext)} |")
     write_html()
+    write_download_center()
