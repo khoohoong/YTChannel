@@ -114,3 +114,10 @@ style suffix blanked the documents). Replacements (~30 cr):
 - E4 v2 `0193efbc-785a-4043-bff8-de968fde8af4` — hand HOLDING the magnifier
 - E5 v2 `ba5d79f1-13e8-4526-b38f-2acff65a0c4b` — fragments covered in illegible ancient script
 Old v1 job IDs remain above for reference; superseded.
+
+## PHASE 5 REVIEW FIXES round 2 (2026-07-07) — ethnicity made explicit (~37.5 cr)
+- C3 v2 `26e63110-84e7-4a05-a582-092d78f828ea` — Tamil shipwrights
+- C4 v2 `6823d9ae-4515-4c71-9e60-9e531be87c01` — Tamil emperor + soldiers
+- C6 v2 `212c877c-f1f6-4bc1-a788-1bf12405a285` — Tamil oarsmen
+- C9 v2 `8e9d547b-111f-4642-b9ee-3f8bdeece1b2` — Tamil soldiers
+- D11 v2 `91512bf5-f271-48a1-8199-3eea94fc40c9` — Indonesian kids
