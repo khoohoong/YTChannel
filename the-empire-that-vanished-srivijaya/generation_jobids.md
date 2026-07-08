@@ -121,3 +121,8 @@ Old v1 job IDs remain above for reference; superseded.
 - C6 v2 `212c877c-f1f6-4bc1-a788-1bf12405a285` — Tamil oarsmen
 - C9 v2 `8e9d547b-111f-4642-b9ee-3f8bdeece1b2` — Tamil soldiers
 - D11 v2 `91512bf5-f271-48a1-8199-3eea94fc40c9` — Indonesian kids
+
+## SEGMENT B FIXES (user-approved prompts, 2026-07-08, 22.5 cr)
+- B5 v2 `5b5f75d8-8101-4fc1-8be1-729969bc3da0` — Malay warriors, carved-prow canoes
+- B6 v2 `f850a937-26a1-4532-93f2-f92161ad6ba6` — monsoon, ancient harbour only
+- B16 v2 `216d2855-c465-44b6-968f-0cef918efd3c` — child in sarong
