@@ -5,10 +5,10 @@
 | Label | What | Fixes |
 |---|---|---|
 | **A1 v3** | Fishermen free-divers (goggles, bare-chested, NO scuba tanks) slipping off a wooden boat | scuba-diver problem |
-| **H1-ALT** | A fisherman surfaces beside the boat and raises the gold ring — a person, not a lone fist | "hand out of water, why?" |
-| **E9 v2** | Fisherman breaks surface holding a coin up, crew behind (for Block E later) | same logic problem |
+| ~~H1-ALT~~ | **REJECTED by user review** (fisherman surfaced inside his own boat) — use original H1-2K, now motivated by the A1→A2 build-up | — |
+| ~~E9 v2~~ | **REJECTED by user review** (uncanny smiling crowd) — use original E9; it's motivated in context | — |
 | **GAP-A1** | Empty rainforest floor, nothing man-made | gap 1 |
-| **GAP-A2** | Still: open archive drawer with an empty velvet recess, one spotlight | gap 2 |
+| ~~GAP-A2~~ | **REJECTED by user review** (too abstract) — hold A8 longer or start S5 early instead | — |
 | **ART1** | Seven-nāga inscription stele (Telaga Batu style) — museum still | artifact accuracy |
 | **ART2** | Weathered stone tablet, 7th-c. Pallava-style script (Kedukan Bukit style) | artifact accuracy |
 | **ART3** | Bronze Avalokiteshvara, Chaiya style — museum still | artifact accuracy |
@@ -20,13 +20,13 @@ Only the changed/filled slots — keep the rest of your arrangement:
 |---|---|---|
 | 0:00–0:05 | A1 v3 (fishermen slip in) | "fishermen are diving into water so dark…" |
 | 0:05–0:10 | A2 (underwater hand in silt) | "…work entirely by touch" |
-| 0:10–0:15 | **H1-ALT** (surfacing with ring) | "And they are coming up with gold." |
+| 0:10–0:15 | **H1-2K** (fist + ring — now motivated by A1→A2 before it) | "And they are coming up with gold." |
 | 0:19–0:29 | S1 *or* **ART4** (Ken Burns) | "wreckage of an empire…" |
 | 0:36–0:40 | **GAP-A1** | "No ruins. No chronicles. Not even a name." |
 | 0:40–0:49 | **ART2** (Ken Burns) — literally the "forgotten stones" | "Until 1918, one scholar, reading forgotten stones…" |
-| 0:49–0:53 | **GAP-A2** | "A hole the size of an empire." |
+| 0:49–0:53 | hold A8 a beat longer, or start S5 early | "A hole the size of an empire." |
 | 0:53–0:58 | S5 key art (title beat) | "This is the story of Srivijaya." |
-| 0:58–1:03 | E9 v2 (borrowed from Block E) | "…a river is finally giving it back." |
+| 0:58–1:03 | E9 original (hand + coin — motivated here by the hook's divers) | "…a river is finally giving it back." |
 | 1:03–1:23 | MAP1 | "look at the map…" |
 | ~1:26 | A9 (single-file ships) | "…almost single file." |
 

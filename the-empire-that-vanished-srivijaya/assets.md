@@ -107,7 +107,7 @@ VO-B — if mangled, regenerate that block with a phonetic spelling in the promp
 | E6 | scholar's eyes widening (generic figure) | `9afe7a4a-328c-482b-851b-4aad69ff5265` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030244_9afe7a4a-328c-482b-851b-4aad69ff5265.mp4 |
 | E7 | dredger crane on river at dusk | `0d4d68dd-47d3-4e35-ade1-8bcf82b2c446` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030246_0d4d68dd-47d3-4e35-ade1-8bcf82b2c446.mp4 |
 | E8 | diver back-rolls into brown water | `147a36b9-7723-42ee-bf87-7b2a298cb537` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030248_147a36b9-7723-42ee-bf87-7b2a298cb537.mp4 |
-| E9 | fisherman surfaces holding coin (v2) | `7339d013-da6e-4897-a137-0eded9b60bf0` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073054_7339d013-da6e-4897-a137-0eded9b60bf0.mp4 |
+| E9 | hand surfaces holding coin, sun flare (original kept) | `ec489d26-7915-49b7-a3f3-bc73b405343b` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030256_ec489d26-7915-49b7-a3f3-bc73b405343b.mp4 |
 | E10 | gloved hands lay treasures on museum tray | `0dd393e0-27b9-48f4-aa6d-5d761c33d7b6` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030258_0dd393e0-27b9-48f4-aa6d-5d761c33d7b6.mp4 |
 | E11 | gold artifact rotating against black | `8bb9c6aa-e863-49a5-b3f0-2280bed75169` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030300_8bb9c6aa-e863-49a5-b3f0-2280bed75169.mp4 |
 | E12 | modern Palembang lights on the river, dusk | `38e10c49-5b63-4ca5-9b2c-f97edae13942` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260707_030303_38e10c49-5b63-4ca5-9b2c-f97edae13942.mp4 |
@@ -120,10 +120,10 @@ VO-B — if mangled, regenerate that block with a phonetic spelling in the promp
 ## SEGMENT-A FIX PACK (2026-07-08 — see segmentA_fix_notes.md)
 | Label | Shot | Job ID | URL |
 |---|---|---|---|
-| H1-ALT | HOOK ALT: fisherman surfaces with ring (person, not fist) | `5214ecf2-b61a-4b38-8c37-b27b21dcfb57` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073050_5214ecf2-b61a-4b38-8c37-b27b21dcfb57.mp4 |
 | GAP-A1 | empty rainforest floor ("No ruins. No chronicles.") | `28b12a59-4cd8-46a3-8a27-dfc6ebd9ae48` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073055_28b12a59-4cd8-46a3-8a27-dfc6ebd9ae48.mp4 |
-| GAP-A2 | empty archive drawer still ("a hole the size of an empire") | `726e0591-ce45-41ae-9038-02e6c610fb56` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073111_726e0591-ce45-41ae-9038-02e6c610fb56.png |
 | ART1 | seven-naga stele, Telaga Batu style | `84084133-8958-419b-8293-67da2aaee7f9` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073104_84084133-8958-419b-8293-67da2aaee7f9.png |
 | ART2 | Kedukan Bukit-style stone tablet | `4fccdbf0-41c2-4d62-87f2-55b2ec4c3c38` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073106_4fccdbf0-41c2-4d62-87f2-55b2ec4c3c38.png |
 | ART3 | bronze Avalokiteshvara, Chaiya style | `9dadfaa6-b654-433d-918d-aca0b526acff` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073108_9dadfaa6-b654-433d-918d-aca0b526acff.png |
 | ART4 | river-hoard gold coins + votive plaque | `ff676f21-2745-4c36-b98b-03f75071fbf6` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260708_073110_ff676f21-2745-4c36-b98b-03f75071fbf6.png |
+
+**Rejected in user review 2026-07-08 (kept for the record, do not use):** H1-ALT `5214ecf2`, E9v2 `7339d013`, GAP-A2 `726e0591`.
