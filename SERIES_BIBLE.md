@@ -30,6 +30,14 @@
 - **The "no text" style suffix makes documents/papers render BLANK** (Ep 2 catch): for shots that
   need visible writing, drop "no text" and write "covered in faint illegible ancient script,
   blurred and unreadable" instead — you get texture without gibberish.
+- **⚠ Claude CANNOT watch generated videos in this sandbox** (CDN blocked) — it QCs prompts, not
+  pixels. Hard rules from the Ep 2 credit-waste incident: (1) generate ONLY when the user asks or
+  approves the exact prompt first — especially people/action shots; (2) people + water/boat
+  spatial logic is a known failure mode (a "surfacing fisherman" rendered INSIDE his boat;
+  background crowds come out uncanny — avoid "smiling crew behind"); (3) before regenerating
+  anything, check whether an EXISTING approved clip solves it by reordering — it's free.
+- **Concept shots must be literal, not clever** (Ep 2: an "empty archive drawer" metaphor read as
+  meaningless). If a visual needs a sentence of explanation, don't generate it.
 - Cost ≈ 7.5 credits per Kling 5s clip. Check `balance` before a big batch.
 
 ## MAPS & INFOGRAPHICS
