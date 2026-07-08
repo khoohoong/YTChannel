@@ -18,7 +18,7 @@ MANIFEST = [
  ("S3","025813","5672ae1a-8146-4859-be9b-2b454601fd93","png","STILL C: burning harbour panorama"),
  ("S4","025814","312dbdd7-4a71-4ef2-874e-39b933c4437d","png","STILL D: empty overgrown riverbank"),
  ("S5","025816","63173332-6928-41b7-9b18-e4a6ea837b67","png","STILL E: gold emerging from black silt (key art)"),
- ("A1","025842","ed0dfe42-01c1-4a60-bca6-fb0861175c41","mp4","divers roll backwards off wooden boat, dawn"),
+ ("A1","20260708_073052","f92e975d-c47b-47cd-8a8f-4a9fe713a7b1","mp4","fishermen free-divers slip off wooden boat (v3: goggles, no scuba)"),
  ("A2","025845","fbb20b5a-a21d-404a-964e-36ffec140a20","mp4","underwater hand finds gold ring in silt"),
  ("A3","025846","fc6d0c39-bb35-4bf9-90b5-be20e62e9f35","mp4","gold rings + beads in weathered palm"),
  ("A4","025848","a3338a84-f630-451c-9a9e-f6d9989e5224","mp4","temple bell hauled dripping from river"),
@@ -81,7 +81,7 @@ MANIFEST = [
  ("E6","030244","9afe7a4a-328c-482b-851b-4aad69ff5265","mp4","scholar's eyes widening (generic figure)"),
  ("E7","030246","0d4d68dd-47d3-4e35-ade1-8bcf82b2c446","mp4","dredger crane on river at dusk"),
  ("E8","030248","147a36b9-7723-42ee-bf87-7b2a298cb537","mp4","diver back-rolls into brown water"),
- ("E9","030256","ec489d26-7915-49b7-a3f3-bc73b405343b","mp4","hand surfaces holding coin, sun flare"),
+ ("E9","20260708_073054","7339d013-da6e-4897-a137-0eded9b60bf0","mp4","fisherman surfaces holding coin up (v2: person visible, not a lone hand)"),
  ("E10","030258","0dd393e0-27b9-48f4-aa6d-5d761c33d7b6","mp4","gloved hands lay treasures on museum tray"),
  ("E11","030300","8bb9c6aa-e863-49a5-b3f0-2280bed75169","mp4","gold artifact rotating against black"),
  ("E12","030303","38e10c49-5b63-4ca5-9b2c-f97edae13942","mp4","modern Palembang lights on the river, dusk"),
@@ -89,6 +89,13 @@ MANIFEST = [
  ("E14","030306","0aea0523-7e3d-4cb1-b7eb-415a4faea1f6","mp4","brick temple tower at blood-red dusk (Champa tease)"),
  ("E15","030308","b5e80999-92a0-4443-badc-a7afd9e4ed63","mp4","wave erasing script written in sand"),
  ("E16","041356","ad9ce9e9-5110-40cd-8117-63f3997b8293","mp4","Indonesian child holds gold bead to the sun (v2: ethnicity fixed)"),
+ ("H1-ALT","20260708_073050","5214ecf2-b61a-4b38-8c37-b27b21dcfb57","mp4","HOOK ALT: fisherman surfaces with gold ring beside boat (use instead of H1 if you prefer a person over the fist)"),
+ ("GAP-A1","20260708_073055","28b12a59-4cd8-46a3-8a27-dfc6ebd9ae48","mp4","empty rainforest floor, nothing man-made (fills: No ruins. No chronicles.)"),
+ ("GAP-A2","20260708_073111","726e0591-ce45-41ae-9038-02e6c610fb56","png","empty archive drawer still (fills: a hole the size of an empire)"),
+ ("ART1","20260708_073104","84084133-8958-419b-8293-67da2aaee7f9","png","ARTIFACT: seven-naga inscription stele, Telaga Batu style"),
+ ("ART2","20260708_073106","4fccdbf0-41c2-4d62-87f2-55b2ec4c3c38","png","ARTIFACT: Kedukan Bukit-style stone tablet, Pallava script"),
+ ("ART3","20260708_073108","9dadfaa6-b654-433d-918d-aca0b526acff","png","ARTIFACT: bronze Avalokiteshvara, Chaiya style"),
+ ("ART4","20260708_073110","ff676f21-2745-4c36-b98b-03f75071fbf6","png","ARTIFACT: river-hoard gold coins + Buddhist votive plaque"),
 ]
 
 VO = [
@@ -116,7 +123,9 @@ MAPS = [
  ("MAP4","maps/map_clips/MAP4_fall_majapahit.mp4","15s — network dims; Majapahit rises"),
 ]
 
-def url(ts, jid, ext): return f"{BASE}hf_{DAY}_{ts}_{jid}.{ext}"
+def url(ts, jid, ext):
+    stamp = ts if "_" in ts else f"{DAY}_{ts}"
+    return f"{BASE}hf_{stamp}_{jid}.{ext}"
 
 BLOCK_NAMES = {
  "H":"HERO SHOTS (Seedance, 720p — approved keepers get upscaled)",
