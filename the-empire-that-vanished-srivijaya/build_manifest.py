@@ -97,11 +97,11 @@ MANIFEST = [
 ]
 
 VO = [
- ("VO-A","025012","8014b01e-9669-4de4-88a0-39f26a58cdcb","mp3","Hook + The Choke Point (1:48.2)"),
- ("VO-B","025018","bf23bed2-b9e6-4b67-95eb-fde994dd802b","mp3","The Floating Empire (1:52.9)"),
- ("VO-C","025023","f76a2355-61e3-4423-8683-45dbafdfe69a","mp3","The Enemy from the West (1:22.8)"),
- ("VO-D","025028","da880b12-62bd-4f2f-a71b-96e58244a748","mp3","The Vanishing (1:33.4)"),
- ("VO-E","025034","a277723c-daee-4350-8823-462730384392","mp3","The Resurrection + CTA (1:49.4)"),
+ ("VO-A2","20260720_072151","2db30a6b-a259-4cb5-b4e9-b1ef9bad9e09","mp3","GIDEON Hook + Choke Point (1:54.6)"),
+ ("VO-B2","20260720_072157","f8c9fdd9-128e-4a80-823c-5636fa0e8ff3","mp3","GIDEON The Floating Empire (1:51.2)"),
+ ("VO-C2","20260720_072202","097464bc-7c75-4572-9843-cb9c9b4dc695","mp3","GIDEON The Enemy from the West (1:22.5)"),
+ ("VO-D2","20260720_072207","1d83fae7-87e4-4f4f-9638-765915aefe84","mp3","GIDEON The Vanishing (1:34.0)"),
+ ("VO-E2","20260720_072213","ad271b9d-ebc1-4503-9e07-dc39122fb25a","mp3","GIDEON The Resurrection + CTA (1:50.6)"),
 ]
 
 # 2K upscales of the approved heroes — USE THESE in the edit, not the 720p originals.

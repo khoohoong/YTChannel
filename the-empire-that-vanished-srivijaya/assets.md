@@ -2,7 +2,20 @@
 ### Keep job IDs forever; CloudFront URLs expire. Re-fetch with `job_display(id)`.
 ### ⚠ This sandbox can't download the CDN — the user downloads on their own machine.
 
-## VOICEOVER — Arthur (text2speech_v2 · variant elevenlabs · preset 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)
+## VOICEOVER v2 — GIDEON (text2speech_v2 · elevenlabs · preset 1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5)
+Regenerated 2026-07-20 (user request: Arthur too close to David Attenborough — YouTube flag risk).
+Same approved script. **Total 512.96s = 8:33** (was 8:27). USE THESE FILES.
+
+| File | Block | MEASURED | vs Arthur | Job ID | URL |
+|---|---|---|---|---|---|
+| VO-A2 | Hook + Choke Point | **114.64s** | +6.5s | `2db30a6b-a259-4cb5-b4e9-b1ef9bad9e09` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_072151_2db30a6b-a259-4cb5-b4e9-b1ef9bad9e09.mp3 |
+| VO-B2 | The Floating Empire | **111.20s** | −1.7s | `f8c9fdd9-128e-4a80-823c-5636fa0e8ff3` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_072157_f8c9fdd9-128e-4a80-823c-5636fa0e8ff3.mp3 |
+| VO-C2 | The Enemy from the West | **82.48s** | −0.3s | `097464bc-7c75-4572-9843-cb9c9b4dc695` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_072202_097464bc-7c75-4572-9843-cb9c9b4dc695.mp3 |
+| VO-D2 | The Vanishing | **94.00s** | +0.6s | `1d83fae7-87e4-4f4f-9638-765915aefe84` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_072207_1d83fae7-87e4-4f4f-9638-765915aefe84.mp3 |
+| VO-E2 | The Resurrection + CTA | **110.64s** | +1.2s | `ad271b9d-ebc1-4503-9e07-dc39122fb25a` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_072213_ad271b9d-ebc1-4503-9e07-dc39122fb25a.mp3 |
+
+## VOICEOVER v1 — ARTHUR (SUPERSEDED 2026-07-20, do not use — kept for the record)
+(original Arthur table below)
 Generated 2026-07-07 from the APPROVED script (v1 + single-file wording swap). **Total 506.6s = 8:27.**
 
 | File | Block | MEASURED | Job ID | URL |

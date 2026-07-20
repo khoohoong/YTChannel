@@ -2,10 +2,13 @@
 ### Reuse these across every episode so the channel feels like one thing.
 
 ## NARRATOR
-- **Voice:** Arthur (deep, measured, documentary).
+- **Voice: GIDEON** (deep male documentary) — **changed from Arthur 2026-07-20**: user judged
+  Arthur too close to David Attenborough's voice (YouTube impersonation-flag risk). Gideon chosen
+  from 4 samples; pace matches Arthur within ~2% so edits survived.
 - Engine: ElevenLabs via Higgsfield `generate_audio`.
 - `model: text2speech_v2` · `variant: elevenlabs` · `voice_type: preset`
-- `voice_id: 30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
+- `voice_id: 1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5`
+- (Old Arthur ID kept for the record, do NOT use: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346`.)
 - Deliver VO as **one file per segment** (not one long file) — makes measuring + editing clean.
 - ⚠️ Arthur reads ~130–140 wpm effective — **measure actual duration, never trust word count.**
 
@@ -68,6 +71,6 @@
 | Ep | Title | Runtime | Status |
 |---|---|---|---|
 | 1 | The TRUE Origin of Southeast Asia | ~9:06 | Delivered |
-| 2 | The Empire That VANISHED for 600 Years (Srivijaya) — Vanished Kingdoms 1/3 | **8:27 measured** | All assets delivered; user assembling (timeline + download center in folder) |
+| 2 | The Empire That VANISHED for 600 Years (Srivijaya) — Vanished Kingdoms 1/3 | **8:33 measured** (Gideon VO) | All assets delivered; user assembling (timeline + download center in folder) |
 | 3 | Champa — Vanished Kingdoms 2/3 | — | Series plan only |
 | 4 | Majapahit — Vanished Kingdoms 3/3 | — | Series plan only |
