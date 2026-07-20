@@ -26,6 +26,27 @@ Generated 2026-07-20. **Durations are REAL (read from job metadata `durationSec`
   establishing/hero shots + the outro recap montage (reuses earlier clips). Target ~**60–70 clips**
   (~**450–525 credits**), keeping a healthy buffer. Decide coverage level before firing the batch.
 
-## VISUALS
-- Not generated yet (Phase 4). Prompt library is in `visual_direction.md`.
-- When generated, log here as H# / S# / OB# with **job IDs** + URLs, grouped by segment.
+## VISUALS — Phase 4 (in progress). MUTE all clip audio in edit (seedance bakes audio).
+Costs: seedance hero **22.5cr** · kling broll **7.5cr** · nano still **2cr**. (Playbook's 7.5 was Kling-only.)
+
+### HEROES (seedance_2_0, 5s, 720p) — 7 signature shots
+| ID | Shot | Job ID | URL |
+|---|---|---|---|
+| H0 | Archipelago aerial (cold open) | `2a480f28-132c-4f44-b3ef-ab4e238d031e` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133929_2a480f28-132c-4f44-b3ef-ab4e238d031e.mp4 |
+| H1b | The drowning / plain floods (S1) | `b4502be8-a5ac-41d4-8737-104500f2fc5c` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133932_b4502be8-a5ac-41d4-8737-104500f2fc5c.mp4 |
+| H2 | Sulawesi cave mouth push-in (S2) | `d20d5ee5-8f29-47ff-bdec-089335550ad0` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133934_d20d5ee5-8f29-47ff-bdec-089335550ad0.mp4 |
+| H3 | Liang Bua cave interior (S3) | `d883c385-bead-4917-850b-74cc0e1293d0` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133935_d883c385-bead-4917-850b-74cc0e1293d0.mp4 |
+| H4 | Outrigger canoe on ocean (S4) | `d232da54-8ff2-411c-ba7c-47e621a0eaa1` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133936_d232da54-8ff2-411c-ba7c-47e621a0eaa1.mp4 |
+| H5 | Angkor Wat sunrise aerial (S5) | `986c9e43-20c2-48ab-9041-04de280788dd` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133944_986c9e43-20c2-48ab-9041-04de280788dd.mp4 |
+| H5b | Temple in strangler-fig roots (S5) | `0483ec26-b254-4183-b25a-207eca2f86cc` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133945_0483ec26-b254-4183-b25a-207eca2f86cc.mp4 |
+
+### STILLS (nano_banana_pro, 16:9) — accuracy-critical reconstructions
+| ID | Shot | Job ID | URL |
+|---|---|---|---|
+| S2b | Leang Karampuang cave painting recon | `10fe8982-62bd-4b9b-88b0-51188f84db93` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133949_10fe8982-62bd-4b9b-88b0-51188f84db93.png |
+| S3b | Homo floresiensis scale recon (regen; 1st hit NSFW filter) | `7ebcd87f-8a08-4634-b72d-e3e3b65c3a96` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_134027_7ebcd87f-8a08-4634-b72d-e3e3b65c3a96.png |
+| S5b | Greater Angkor at its height recon | `fbf95a53-875c-40d8-a2fb-c959d458007c` | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133954_fbf95a53-875c-40d8-a2fb-c959d458007c.png |
+
+**Spent so far:** 7 heroes ×22.5 + 3 stills ×2 = **~163.5 credits** (+1 NSFW re-gen = 2). Balance was 849.25.
+**Remaining batch (on look-approval):** ~43 Kling B-roll ×7.5 + 5 more stills ×2 ≈ **~330 credits**.
+
