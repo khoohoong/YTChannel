@@ -28,7 +28,8 @@
 - [x] On-screen text plan written (`onscreen_text_plan.md`) — titles/dates/place-names timed to VO beats
 - [x] Phase 2: VO generated in **Mark** and **measured** → 7 files, **total ~8:55** (see `assets.md`)
 - [x] Phase 3 math done: full 1× coverage ≈ **95 clips + 7 stills ≈ 712 credits** (`shot_budget.py`)
-- [ ] **Decide visual coverage level** (full vs smart ~60–70 clips) ← spend decision, waiting on user
+- [x] Phase 3 shot list built at SMART coverage → `shot_list.md` (every 5s slot mapped, ~65 clips)
+- [ ] **Greenlight the visual batch** (~65 clips + 8 stills + 3 maps ≈ ~490 credits) ← spend decision, waiting on user
 - [ ] Phase 4: generate visuals (check `balance` first) · Phase 5: review · Phase 6: assemble + download center
 
 **Measured VO durations:** cold open 39.1s · S1 76.8s · S2 74.9s · S3 95.4s · S4 111.5s · S5 104.2s · outro 33.0s.
