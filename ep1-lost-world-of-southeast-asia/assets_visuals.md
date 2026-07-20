@@ -45,12 +45,12 @@
 | OB-S2b | Walking into the cave | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135035_c7ab9f30-e018-43ba-820a-2156aafa55a1.mp4 |
 | H2b | Settle on painted panel | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135037_80cf3875-c634-47d2-ba0d-277b91b73518.mp4 |
 | OB-S2d | Hand dabbing ochre | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135039_0a5ff3be-beeb-40bd-a1ee-9607766094d8.mp4 |
-| OB-S2e | Figures being painted | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135041_2ab6a31f-a9e2-446d-97a8-72a5bcdfc5b9.mp4 |
+| OB-S2e | Figures being painted | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_142426_e4a8c917-06eb-4862-9084-da928318afdb.mp4 |
 | OB-S2f | Lone figure with lamp | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135042_789a1a33-f835-4a95-a64c-405d488d1c2f.mp4 |
 | **3 · Flores Hobbits** | | |
 | H3 | Liang Bua cave interior | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133935_d883c385-bead-4917-850b-74cc0e1293d0.mp4 |
 | OB-S3a | Excavation hands | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135126_15c2406e-54fd-4ca4-887d-b3eef45ddf0d.mp4 |
-| OB-S3b | Skull emerging from earth | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135128_9191aa60-8bb1-4efa-8703-157459eb5ce9.mp4 |
+| OB-S3b | Skull emerging from earth | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_142423_2a0f2da1-c818-4a27-902f-0c505912a584.mp4 |
 | OB-S3c | Hominin family at cave | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135130_e8e69e0b-7ca6-41c8-8204-f54b9d5b1c3b.mp4 |
 | OB-S3d | Island dwarfism (elephants) | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135131_3f783622-dfaa-4ab4-a223-b72a78595ef2.mp4 |
 | OB-S3e | Hunting a dwarf Stegodon | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135133_2b7ad8fb-2468-41c6-b035-ee8132f68b0a.mp4 |
@@ -74,11 +74,11 @@
 | H5 | Angkor Wat sunrise | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133944_986c9e43-20c2-48ab-9041-04de280788dd.mp4 |
 | H5b | Temple in strangler-fig roots | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_133945_0483ec26-b254-4183-b25a-207eca2f86cc.mp4 |
 | OB-S5a | Canal-side market | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135242_1e61a79a-ed84-4f1a-8094-1ccfef2e2fdf.mp4 |
-| OB-S5b | Waterworks / reservoir | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135243_4a0f5aff-0168-407a-aa01-6097f95fe51b.mp4 |
+| OB-S5b | Waterworks / reservoir | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_142429_96bd4756-e8be-4905-8d84-b4bdc933c5a8.mp4 |
 | H5c | Angkor Wat under construction | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135222_3dc1e3fe-e0e3-421a-8220-2bbc939beda2.mp4 |
 | OB-S5d | Bas-relief gallery | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135223_88152fa5-c874-482e-a4c5-849fab0e10f6.mp4 |
 | OB-S5f | Drought then flood | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135245_a0ac5a4e-7992-46e8-a8ed-55b7d8e30008.mp4 |
-| OB-S5g | Deserted streets | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135227_31c3171e-9a57-4fdf-9e12-264d46048abe.mp4 |
+| OB-S5g | Deserted streets | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_142428_46e40ddc-6f21-4ca1-8ed4-ef5ffebc3d9e.mp4 |
 | OB-S5h | Roots splitting stone | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135229_91e31f44-3cb0-4a5e-a781-d271d8a2c171.mp4 |
 | OB-S5i | Trees on the temple | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135231_877f8673-43c0-41b5-8219-a02a603160ba.mp4 |
 | OB-S5j | Present-day Angkor at dawn | https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20260720_135247_5f3a0fe4-3dd4-496a-8775-3cbe9493f7a2.mp4 |

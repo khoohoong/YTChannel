@@ -61,3 +61,9 @@
 
 ## COUNT: 43 B-roll clips + 5 stills fired. (4 Angkor rows initially hit the preset; re-fired literal.)
 ## Note: 2 dead/preset-notice submissions were NOT counted (they returned a notice, not a job).
+
+## REGEN v2 (2026-07-20, user review fixes) — these SUPERSEDE the originals
+- OB-S3b skull emerging (clearer skull): `2a0f2da1-c818-4a27-902f-0c505912a584`
+- OB-S2e figures being painted (realistic hand): `e4a8c917-06eb-4862-9084-da928318afdb`
+- OB-S5g deserted streets (Khmer period dress, walking away): `46e40ddc-6f21-4ca1-8ed4-ef5ffebc3d9e`
+- OB-S5b waterworks (Khmer period dress, no modern clothes): `96bd4756-e8be-4905-8d84-b4bdc933c5a8`
