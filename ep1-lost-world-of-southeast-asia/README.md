@@ -31,8 +31,11 @@
 - [x] Phase 3 shot list built at SMART coverage → `shot_list.md` (every 5s slot mapped)
 - [x] **Phase 4 DONE:** 7 heroes + 43 B-roll + 8 stills generated + 3 code-maps rendered. URLs in `assets_visuals.md`.
 - [x] Phase 6 assembly docs: `edit_timeline_FINAL.md` + `download_center.html` (no-terminal delivery)
-- [ ] **Phase 5 review gate** (user watches clips vs accuracy checklist; regenerate any miss) ← current
-- [ ] Music bed (external) + final edit in the user's NLE, then YouTube packaging (title/desc/thumb)
+- [x] **Phase 5 review** done — user approved; 4 clips regenerated (skull, painting hand, 2 Angkor period-dress)
+- [x] **Edit cut sheet** delivered: `edit_timeline_cutsheet.md` + `edit_timeline.csv` (76 slots, lands 8:54.88)
+- [x] **Music brief** delivered: `music_brief_suno.md` (Suno prompt, instrumental, ~8:55, arc-mapped)
+- [ ] User: generate music in Suno + final edit in NLE
+- [ ] YouTube packaging (title/desc/thumbnail) — offered, on request
 
 **Spend:** VO ~28 cr + visuals ~480 cr. Balance ~369 cr (Ultra).
 **Costs learned:** seedance hero 22.5 · kling broll 7.5 · nano still 2 (playbook's 7.5 was Kling-only).
