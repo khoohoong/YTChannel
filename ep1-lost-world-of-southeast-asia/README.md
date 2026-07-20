@@ -26,7 +26,12 @@
 - [x] **Script approved by user** (2026-07-20)
 - [x] **Narrator voice picked: Mark** (`27c04473-84a9-4b60-a41f-c8e8458bd4f1`) — locked in SERIES_BIBLE
 - [x] On-screen text plan written (`onscreen_text_plan.md`) — titles/dates/place-names timed to VO beats
-- [ ] Phase 2: generate VO in **Mark**, then **measure real durations** ← NEXT (needs Higgsfield credits)
+- [x] Phase 2: VO generated in **Mark** and **measured** → 7 files, **total ~8:55** (see `assets.md`)
+- [x] Phase 3 math done: full 1× coverage ≈ **95 clips + 7 stills ≈ 712 credits** (`shot_budget.py`)
+- [ ] **Decide visual coverage level** (full vs smart ~60–70 clips) ← spend decision, waiting on user
+- [ ] Phase 4: generate visuals (check `balance` first) · Phase 5: review · Phase 6: assemble + download center
+
+**Measured VO durations:** cold open 39.1s · S1 76.8s · S2 74.9s · S3 95.4s · S4 111.5s · S5 104.2s · outro 33.0s.
 - [ ] Phase 3: shot budget to measured VO (`tools/shot_budget.py`)
 - [ ] Phase 4: generate visuals (check `balance` first) · Phase 5: review · Phase 6: assemble + download center
 
