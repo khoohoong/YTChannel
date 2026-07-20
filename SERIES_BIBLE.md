@@ -2,10 +2,11 @@
 ### Reuse these across every episode so the channel feels like one thing.
 
 ## NARRATOR
-- **Voice:** Arthur (deep, measured, documentary).
-- Engine: ElevenLabs via Higgsfield `generate_audio`.
-- `model: text2speech_v2` · `variant: elevenlabs` · `voice_type: preset`
-- `voice_id: 30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
+- **Reboot voice (Episode 1 reboot onward): Mark** (warm, friendly, upbeat — Bright Side energy).
+  - `voice_id: 27c04473-84a9-4b60-a41f-c8e8458bd4f1` · `voice_type: preset`
+- **Legacy voice (original series): Arthur** (deep, measured, documentary).
+  - `voice_id: 30fc8796-ceb6-4a66-b3a7-4a145ef7f346` · `voice_type: preset`
+- Engine (both): ElevenLabs via Higgsfield `generate_audio` · `model: text2speech_v2` · `variant: elevenlabs`
 - Deliver VO as **one file per segment** (not one long file) — makes measuring + editing clean.
 - ⚠️ Arthur reads ~130–140 wpm effective — **measure actual duration, never trust word count.**
 

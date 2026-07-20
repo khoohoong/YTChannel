@@ -23,21 +23,17 @@
 - [x] Full narration written to structure (Phase 1)
 - [x] Every hard claim fact-checked against live sources; fact-check log in `script.md`
 - [x] Accuracy-focused visual prompt library written (`visual_direction.md`)
-- [ ] **Script approval from user** ← waiting on this before any spend
-- [ ] **Pick the new narrator voice** ← waiting on user (shortlist below)
-- [ ] Phase 2: generate VO in the chosen voice, then **measure real durations**
+- [x] **Script approved by user** (2026-07-20)
+- [x] **Narrator voice picked: Mark** (`27c04473-84a9-4b60-a41f-c8e8458bd4f1`) — locked in SERIES_BIBLE
+- [x] On-screen text plan written (`onscreen_text_plan.md`) — titles/dates/place-names timed to VO beats
+- [ ] Phase 2: generate VO in **Mark**, then **measure real durations** ← NEXT (needs Higgsfield credits)
 - [ ] Phase 3: shot budget to measured VO (`tools/shot_budget.py`)
 - [ ] Phase 4: generate visuals (check `balance` first) · Phase 5: review · Phase 6: assemble + download center
 
-## 🎙️ NEW NARRATOR VOICE (needs user pick)
-Reboot wants a *new* voice. Bright Side's own narrator is warm, upbeat, friendly, mid-range male —
-NOT the deep documentary "Arthur." Shortlist of preset voices to audition (previews in Higgsfield):
-- **Mark** (`27c04473-84a9-4b60-a41f-c8e8458bd4f1`) — *recommended starting point: friendly, clear.*
-- **Kevin** (`f1373f24-3b96-433f-9a68-e595810ef608`)
-- **Leo** (`73a45c18-0c56-4642-a61e-f6b303f8ded1`)
-- **Harrison** (`573e5163-59b3-4926-aab1-951ef2985f81`)
-Engine stays ElevenLabs via `generate_audio`: `model: text2speech_v2` · `variant: elevenlabs` ·
-`voice_type: preset`. Once locked, add it to `SERIES_BIBLE.md` as the reboot narrator.
+## 🎙️ NARRATOR VOICE — LOCKED: Mark
+- **Mark** (`27c04473-84a9-4b60-a41f-c8e8458bd4f1`), `voice_type: preset` — warm, friendly, Bright-Side energy.
+- Engine: ElevenLabs via `generate_audio`: `model: text2speech_v2` · `variant: elevenlabs`.
+- Now the reboot narrator in `SERIES_BIBLE.md` (Arthur kept as legacy voice).
 
 ## 🧾 ALT TITLES / HOOKS (for thumbnail + packaging later)
 - "The Lost World of Southeast Asia"
