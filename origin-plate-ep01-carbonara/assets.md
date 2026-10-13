@@ -16,7 +16,7 @@
 | 9 | VO0-C9 | `73fd17b4-0332-48a4-935e-23e62fa9f9db` | approved | `797a253d-39e2-4f3f-9783-6eb22469520b` |
 | 10 | VO0-C10 | `aa966858-58ec-4e83-a6a4-044106330891` | approved | `14fa781f-4fd3-4b33-9f3c-499ead33a853` |
 | 11 | VO1-C1 | `b502a781-97e0-4fb9-a288-80fb7a472d18` | approved | `486d931f-a18c-4360-ac65-eb391fc3fd2c` |
-| 12 | VO1-C2 | `94265bb2-3d47-472b-b69d-ddc941975a09` | approved | `c685b7b6-7cd1-4558-b0e8-75a704f403cc` |
+| 12 | VO1-C2 | `94265bb2-3d47-472b-b69d-ddc941975a09` | approved | `ea72622a-cedf-4ab4-bdfc-56f1d06725ee` |
 | 13 | VO1-C3 | `de27029f-c86c-4382-9095-d81f01f9b4f4` | approved | `3af7ed62-282d-4a00-8a54-4dae60190059` |
 | 14 | VO1-C4 | `7628175a-febc-4b5e-b86d-431931d45af6` | approved | `1c806288-6ab0-4600-a05f-2e38d1df3f60` |
 | 15 | VO1-C5 | `cd04fc0a-3888-407c-8a05-15bd1ba7668d` | approved | `33d9617a-6760-42ea-9391-0aaa841bc1ac` |
