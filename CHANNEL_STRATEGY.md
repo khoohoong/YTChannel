@@ -48,14 +48,48 @@ code-rendered maps + original visuals; one well-made video a week, not daily spa
 - One guide reports watch hours rising to **8,000 from Feb 1, 2027** — unconfirmed, but if true,
   starting now matters.
 
+## 2b. The $10k/month-in-6-months goal (user target, set 2026-10-13)
+Target month: **~April 2027.** Math at our estimated rates:
+
+| Route | What it takes per month |
+|---|---|
+| Ads only (~$4–8 RPM) | **~1.3–2.5M long-form views/month** |
+| Ads + sponsors (education sponsors pay ~$20–40 per 1,000 views per sponsored video) | ~4 videos/month averaging **~100–150k views each**, with a sponsor on 3–4 of them |
+| Shorts | Small money (pennies per 1,000 views); treat as discovery only |
+
+**Honest read:** reachable, but only if the channel breaks out. Most new channels are far below
+100k views per video at month 6. Sponsors are the realistic route to $10k, not ads alone.
+
+**Checkpoints (so we adjust early instead of hoping):**
+- **Month 1:** style locked, 4 long videos + ~10 Shorts live.
+- **Month 2–3:** monetized (1k subs + 4k hours). Aim for **~20k+ average views per video**. If we're
+  under ~5k, change topics/titles/thumbnails before making more of the same.
+- **Month 3–4:** speed up to **2 long videos/week** once the pipeline is quick; start pitching sponsors
+  (food boxes, cookware, learning apps, travel).
+- **Month 6:** ~1M+ monthly views, regular sponsor slots.
+
+Sources: [SponsorRadar — education rates](https://sponsorradar.com/sponsorship-rates/education),
+[1of10 — sponsorship rates by size](https://www.1of10.com/blog/youtube-sponsorship-rates/).
+
 ## 3. Format recommendation
 - **Length: 8–12 min** (inside the 5–15 range). Over 8 min unlocks mid-roll ads; under 12 keeps a
   new channel's retention high. Go to 15 only for big "epic" topics.
 - **Cadence:** 1 long video/week + 2–3 Shorts cut from it (Shorts = discovery funnel, not income).
 - **Episode shape:** Hook with the famous myth (0:00–0:30) → the evidence trail across
   places and centuries (maps!) → the twist / real answer → what it says about us → next-episode tease.
-- **Look:** keep Ep 1's cinematic style (Arthur narration, Seedance/Kling footage, code-rendered maps).
-  Food close-ups are where video models are strongest — a good fit.
+- **Look (user decision 2026-10-13): illustrated, NOT photoreal** — watercolour / 2D cartoon / simple
+  3D. Photoreal AI food looks like "AI slop"; an illustrated style looks deliberate, stays
+  consistent, and lets food be drawn accurately. Pipeline: illustrated stills (Nano Banana Pro) with
+  a locked style prefix + reference image → subtle motion via image-to-video (Kling) or
+  parallax/Ken Burns → code-rendered maps re-coloured to match. Arthur narration stays.
+- **Style test (4 options, same carbonara scene) — Higgsfield job IDs:**
+  1. Watercolour — `46785742-f060-4938-a49a-c35c0fd73ca3`
+  2. Flat 2D cartoon — `f94f3b61-6667-434c-8a5e-f253a6d4d882`
+  3. Simple 3D clay/diorama — `e55d8400-964e-486a-99a5-bff5e436fba2`
+  4. Engraving + gouache (vintage print) — `26bf6fc1-bfbd-422f-98fc-52eed74b26b3`
+  _(Requested `nano_banana_pro`; the jobs report `nano_banana_2` as the model.)_
+- **Shorts:** each long video is cut into 2–3 vertical Shorts. Key shots get framed with the subject
+  centred so a 9:16 crop works; Shorts-only shots are generated at 9:16 when needed.
 - **Titles:** myth-busting framing performs: "The Lie You Were Told About Carbonara",
   "Fortune Cookies Aren't Chinese".
 
