@@ -12,7 +12,9 @@
   | Daisy (f) | `032386ec-491b-5bdc-81ac-49e9a6a2c89d` | `3bca6d09-fc57-4703-8f62-51c6d612054a` |
   | Juno (f) | `a3ce02fe-4d3e-55bc-b4d4-a4801b9acdb4` | `8c536277-4ac1-4868-aa83-5b883f5af985` |
   | Chloe (f) | `e9cfbbf0-4476-46be-b396-596eb774b165` | `24358fdb-2333-4719-a729-04592e7f211b` |
-  - **🔒 LOCKED: Marcus (m)** — `voice_id: 6f98d3dd-324f-4845-8c28-c1d1647a06cd`, `voice_type: preset`,
+  - **🔒 LOCKED (final, 2026-10-13): Benji (m)** — `voice_id: e6f9b893-51b1-51d3-afe9-9e0482cb7ac1`,
+    `voice_type: preset`, `model: text2speech_v2`, `variant: elevenlabs`. Real pace on Ep 1 ≈ **150 wpm**.
+  - ~~Marcus (m)~~ — briefly picked, replaced by Benji before VO: — `voice_id: 6f98d3dd-324f-4845-8c28-c1d1647a06cd`, `voice_type: preset`,
     `model: text2speech_v2`, `variant: elevenlabs`. Audition job `ee19eb19-cc57-46fb-a18b-3c025e30b865`
     (46 words → 18.64s ≈ **148 wpm** incl. pauses — still measure every VO).
 
@@ -53,7 +55,7 @@
 - **Always mute** the generated clip audio in the edit; VO + music bed only.
 - **Preset trap:** dim/night/underwater/fire/candle/star prompts trigger the "IN THE DARK" preset.
   Pass `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612` on those from the start.
-- Cost ≈ 7.5 credits per Kling 5s clip. Check `balance` before a big batch.
+- Cost (checked 2026-10-13): Kling 3.0 Turbo 5s = **10 cr @1080p** / 7.5 cr @720p; Nano Banana Pro still = 2 cr. Check `balance` before a big batch.
 
 ## MAPS & INFOGRAPHICS
 - **Never** generate maps with a video model. Use the code renderer:

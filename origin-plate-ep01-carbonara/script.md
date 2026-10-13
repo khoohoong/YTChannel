@@ -1,9 +1,9 @@
 # ORIGIN PLATE — Ep 1: "Carbonara Isn't As Italian As You Think"
-# Narrator: Marcus (ElevenLabs preset `6f98d3dd-324f-4845-8c28-c1d1647a06cd`)
-# Length: ~1,100 words. Marcus measured ~148 wpm on his audition → est. ~7:30–8:15 (MEASURE after VO).
+# Narrator: Benji (ElevenLabs preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1`)
+# Length: ~1,100 words. Benji measured ~174 wpm on his audition → est. ~6:30–7:00 (MEASURE after VO).
 # If the measured VO is under 8:00, add a short "how carbonara went global" beat to clear the 8-min mid-roll mark.
 # Segment timecodes below are rough guides from the earlier longer estimate — re-time after VO.
-# STATUS: DRAFT v1 — awaiting user approval. Fact-check log at bottom; every hard claim is sourced.
+# STATUS: v1.2 — APPROVED 2026-10-13. VO recorded + measured (see vo_durations.md). Seg 3B added to clear 8:00 — needs user OK. Fact-check log at bottom; every hard claim is sourced.
 
 ---
 
@@ -11,7 +11,7 @@
 
 Ask anyone in Rome, and they'll tell you: carbonara is sacred. Eggs. Guanciale. Pecorino. Black pepper. Nothing else — and heaven help you if you add cream.
 
-In 2025, UNESCO recognised Italian cuisine itself as part of the cultural heritage of humanity. And carbonara is one of its proudest flags. A dish so old, so Roman, it surely goes back to the shepherds… or the emperors.
+In twenty twenty-five, UNESCO recognised Italian cuisine itself as part of the cultural heritage of humanity. And carbonara is one of its proudest flags. A dish so old, so Roman, it surely goes back to the shepherds… or the emperors.
 
 Except — when historians went looking for carbonara in old cookbooks, they found something strange.
 
@@ -41,7 +41,7 @@ But an ancestor isn't the dish. Pasta with eggs and cheese is not carbonara — 
 
 ## SEGMENT 2 — THE SOLDIERS (≈2:40–4:50)
 
-June, nineteen forty-four. Allied troops enter Rome. For the first time in years, the city is flooded with food it hasn't seen — American army supplies. And two of the most common things in those supplies were very American indeed.
+June, nineteen forty-four. Allied troops enter Rome. For the first time in years, the city is flooded with food it hasn't seen — American army supplies. And among those supplies were two very American things.
 
 Bacon. And eggs — often powdered.
 
@@ -77,6 +77,16 @@ That's when the "strict" version — egg, guanciale, pecorino, pepper — settle
 
 So the recipe purists guard so fiercely is, in its modern form, only about thirty years old.
 
+## SEGMENT 3B — GOING GLOBAL (added after VO measured 7:21, to clear the 8-min mark)
+
+And while Italy was still working out the recipe, carbonara was already travelling. In that same year, nineteen fifty-four, the British food writer Elizabeth David included it in her book Italian Food — bringing it into English kitchens.
+
+Abroad, carbonara did what popular dishes do. It got richer. Creamier. Easier. The carbonara much of the world grew up on looked very little like the one Rome defends today.
+
+And the world fell for it. Italian restaurant owners say it's one of the dishes foreign visitors love most. In the United States, search data ranks it among the country's three favourite pastas — just behind fettuccine Alfredo and lasagne.
+
+Since twenty seventeen, it even has its own holiday. Carbonara Day, every sixth of April, launched by Italy's pasta makers. And every year, right on schedule, the internet starts arguing about cream all over again.
+
 ## SEGMENT 4 — THE FIGHT (≈7:30–8:50)
 
 In March twenty twenty-three, an Italian food historian named Alberto Grandi told the Financial Times that carbonara was, essentially, an American dish. He pointed to that wartime story — an Italian cook, American soldiers, American ingredients.
@@ -85,7 +95,7 @@ Italy did not take it well. The country's biggest farmers' association called it
 
 So who's right?
 
-Probably… both sides, a little. The technique — eggs and cheese tossed through hot pasta into a silky sauce — is deeply Italian, with roots going back at least to the eighteen-hundreds. But the dish we call carbonara, with bacon and eggs at its heart, almost certainly took shape in the years after nineteen forty-four, when American supplies met Italian cooks.
+Probably… both sides, a little. The technique — eggs and cheese tossed through hot pasta into a silky sauce — is deeply Italian, with roots going back at least to the eighteen-hundreds. But the dish we call carbonara, with bacon and eggs at its heart, most likely took shape in the years after nineteen forty-four, when American supplies met Italian cooks.
 
 As the Italian food writer Eleonora Cozzella put it: it was a combination of Italian genius and American resources.
 
@@ -121,5 +131,10 @@ This has been Origin Plate. Now go cook something.
 | 16 | Modern strict form "only about thirty years old" (settled 1990s) | ✅ follows from #15 (replaced an inaccurate "younger than the internet" line) | as #15 |
 | 17 | Grandi, FT, March 2023; Coldiretti "attack"; deputy PM (Salvini) criticised | ✅ | [CNN via ABC17](https://abc17news.com/entertainment/cnn-style/2023/04/01/its-been-claimed-pizza-and-carbonara-are-american-heres-how-that-went-down-in-italy/), [Yahoo](https://uk.sports.yahoo.com/news/food-expert-sparks-fury-claiming-204722421.html) |
 | 18 | Cozzella quote "Italian genius and American resources" | ✅ | [CNN via ABC17](https://abc17news.com/entertainment/cnn-style/2023/04/01/its-been-claimed-pizza-and-carbonara-are-american-heres-how-that-went-down-in-italy/) |
+
+| 19 | Elizabeth David's *Italian Food* (1954, UK) included carbonara | ✅ Wikipedia + one other source; "same year" as La Cucina Italiana | [Wikipedia](https://en.wikipedia.org/wiki/Carbonara), [Jordon King](https://jordonking.substack.com/p/if-my-grandmother-had-wheels) |
+| 20 | Restaurateurs: among dishes most popular with foreign visitors | ✅ Touring Club Italiano survey of restaurateurs | [bluewin](https://www.bluewin.ch/en/news/carbonara-and-lasagna-are-italys-most-popular-specialties-2413261.html) |
+| 21 | US search data: top 3 pastas, behind fettuccine Alfredo and lasagne | ✅ The Nibble search analysis (Alfredo 77.3, lasagna 72.8, carbonara 67.1) | [The Nibble](https://blog.thenibble.com/2024/10/20/whats-the-most-popular-americas-favorite-pasta-dishes/) |
+| 22 | Carbonara Day, 6 April, since 2017, launched by AIDEPI (Italian pasta makers) + International Pasta Organisation | ✅ | [ANSA 2017](https://www.ansa.it/english/news/lifestyle/food_wine/2017/04/06/italy-marks-carbonara-day_f508047a-6113-418a-a7b2-91480c1569aa.html), [Gambero Rosso](https://www.gamberorosso.it/?p=145668) |
 
 **Open items before VO:** none — all claims sourced or softened. Awaiting user approval.

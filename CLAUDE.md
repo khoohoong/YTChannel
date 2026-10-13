@@ -48,10 +48,11 @@ Never generate visuals before the VO exists and is measured.
 - **Episode 1** — "The TRUE Origin of Southeast Asia" (~9:06) — delivered. Assets, timeline, maps,
   thumbnails, and YouTube packaging are all in its folder.
 - **Channel pivot (2026-10-13) — APPROVED:** faceless food-history channel **"Origin Plate"**.
-  Strategy: `CHANNEL_STRATEGY.md`. Topics: `TOPIC_BANK.md`. Narrator **Marcus**; look = **simple 3D
+  Strategy: `CHANNEL_STRATEGY.md`. Topics: `TOPIC_BANK.md`. Narrator **Benji**; look = **simple 3D
   clay + stop-motion** (both locked in SERIES_BIBLE.md).
 - **Origin Plate Ep 1 — Carbonara** (`origin-plate-ep01-carbonara/`): script v1 written + fact-checked,
-  **awaiting user script approval** → then Phase 2 (VO).
+  script approved; VO recorded with Benji and **measured 8:16** (`vo_and_shotlist.md`); shot list +
+  cost written. **Awaiting user OK on added Seg 3B + ~1,100-credit visual batch** → then Phase 4.
 - **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
   (outline → fact-check → script) before any generation.
 
