@@ -38,7 +38,8 @@ Never generate visuals before the VO exists and is measured.
 - VO reads ~40% slower than word-count estimates → measure, don't estimate.
 - Every generated clip is a fixed 5s → budget slot counts accordingly (`tools/shot_budget.py`).
 - The "IN THE DARK" preset hijacks dim/night prompts → pass
-  `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
+  `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`. It fired on a plain kitchen prompt too — pass it on EVERY Kling call.
+- The word **"elevated"** triggers the "ELEVATE" preset (`5b3c1307-bee6-46e1-bdee-fba2db843d00`) — avoid the word (use "overhead").
 - CloudFront asset URLs expire → keep Higgsfield **job IDs** in `assets.md` to re-fetch.
 - This sandbox's network **blocks the Higgsfield CDN** (`d8j0ntlcm91z4.cloudfront.net`), so you
   can't `curl` generated assets here — deliver URLs to the user, who downloads on their own machine.
