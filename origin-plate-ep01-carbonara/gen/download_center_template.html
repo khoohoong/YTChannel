@@ -1,0 +1,104 @@
+<title>Carbonara Ep 1 Files</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a production tray — one column of segments in edit order, each file a row you tick off. */
+:root{
+  --bg:#F2EFEA; --panel:#FBFAF7; --ink:#26221D; --muted:#776E63; --line:#DDD6CC;
+  --yolk:#C98A12; --yolk-soft:#F6E3B8; --pepper:#3B3631; --done:#5E7D4E;
+  --display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1D1B18; --panel:#26231F; --ink:#EEE8DF; --muted:#A79D90; --line:#3A3530;
+  --yolk:#E8AE3C; --yolk-soft:#4A3A17; --pepper:#D9D2C7; --done:#93B67F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1D1B18; --panel:#26231F; --ink:#EEE8DF; --muted:#A79D90; --line:#3A3530;
+  --yolk:#E8AE3C; --yolk-soft:#4A3A17; --pepper:#D9D2C7; --done:#93B67F; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+.wrap{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:28px 64px;display:grid;gap:28px}
+.top{display:grid;gap:14px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:800 clamp(30px,5vw,48px)/1.05 var(--display);margin:0;text-wrap:balance}
+.lede{margin:0;max-width:65ch;color:var(--muted)}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.how li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:14px}
+.how b{display:block;font:600 13px var(--display);margin-bottom:2px}
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:10px;display:grid;gap:6px;border-bottom:1px solid var(--line)}
+.progress .bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.progress .fill{height:100%;width:0;background:var(--yolk);transition:width .3s}
+.progress .count{font:500 13px var(--mono);font-variant-numeric:tabular-nums;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.progress button{font:500 12px var(--mono);background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:2px 8px;cursor:pointer}
+section{display:grid;gap:10px}
+section header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--pepper);padding-bottom:6px}
+h2{font:600 22px/1.2 var(--display);margin:0}
+.meta{font:12px var(--mono);color:var(--muted)}
+.rows{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.row{display:grid;grid-template-columns:20px 44px 52px minmax(0,1fr) 44px 56px 72px;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.row.done{opacity:.55}
+.row.done .name{text-decoration:line-through;text-decoration-color:var(--done)}
+.row input{width:18px;height:18px;accent-color:var(--done);margin:0}
+.tc,.len,.job{font:12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.job{overflow:hidden;text-overflow:ellipsis}
+.kind{font:500 10px var(--mono);letter-spacing:.06em;text-align:center;border-radius:4px;padding:2px 0;border:1px solid var(--line)}
+.k-vo{background:var(--pepper);color:var(--panel);border-color:var(--pepper)}
+.k-map{background:var(--yolk-soft);border-color:var(--yolk)}
+.k-still{border-style:dashed}
+.file{min-width:0;display:grid}
+.name{all:unset;cursor:pointer;font:500 13px var(--mono);overflow-wrap:anywhere}
+.name:hover,.name:focus-visible{color:var(--yolk);outline:none}
+.name.copied::after{content:"  copied";color:var(--done)}
+.desc{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.open{font:600 13px var(--display);color:var(--ink);text-decoration:none;border:1px solid var(--yolk);border-radius:6px;text-align:center;padding:3px 0}
+.open:hover,.open:focus-visible{background:var(--yolk);color:var(--bg);outline:none}
+.pending{font:12px var(--mono);color:var(--yolk)}
+.note{font-size:13px;color:var(--muted);max-width:65ch}
+@media (max-width:640px){
+  .row{grid-template-columns:20px 44px minmax(0,1fr) 56px;row-gap:4px}
+  .kind,.len,.job{display:none}
+}
+@media (prefers-reduced-motion:reduce){.progress .fill{transition:none}}
+</style>
+<div class="wrap">
+  <div class="top">
+    <span class="eyebrow">Origin Plate · Episode 1 · 8:21</span>
+    <h1>Carbonara Isn't As Italian As You Think</h1>
+    <p class="lede">Every file for the edit, in timeline order. The timecode on each row is where it goes. Tick each one as you save it; your ticks stay in this browser.</p>
+    <ul class="how">
+      <li><b>1 · Save</b>Right-click <em>Open</em> → “Save Link As…”, and name the file exactly as shown. Click a filename to copy it.</li>
+      <li><b>2 · Lay out</b>Narration on the audio track, 0.75s gap between parts. Pictures back-to-back at their listed length.</li>
+      <li><b>3 · Finish</b>Mute clip audio. Push-in on stills. Add map labels and on-screen dates in your editor.</li>
+    </ul>
+  </div>
+  <div class="progress" aria-live="polite">
+    <div class="count"><span id="count">0 / {{TOTAL}} saved</span><button type="button" id="reset">Clear ticks</button></div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+  </div>
+  {{SECTIONS}}
+  <p class="note">Links come from Higgsfield and expire after a while. If one stops working, tell Claude “refresh the carbonara download page” — every file is stored by its job ID (the short code at the right of each row) and can be re-fetched. Maps were drawn in code and are saved with this page, so they don't expire.</p>
+</div>
+<script>
+(function(){
+  var KEY="op-ep1-saved", saved={};
+  try{saved=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+  var rows=[].slice.call(document.querySelectorAll(".row")), total=rows.length;
+  function render(){
+    var n=0; rows.forEach(function(r){var on=!!saved[r.dataset.id]; r.classList.toggle("done",on); r.querySelector("input").checked=on; if(on)n++;});
+    document.getElementById("count").textContent=n+" / "+total+" saved";
+    document.getElementById("fill").style.width=(100*n/total)+"%";
+  }
+  function store(){try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}}
+  rows.forEach(function(r){
+    r.querySelector("input").addEventListener("change",function(e){saved[r.dataset.id]=e.target.checked; store(); render();});
+    var b=r.querySelector(".name");
+    b.addEventListener("click",function(){
+      var done=function(){b.classList.add("copied"); setTimeout(function(){b.classList.remove("copied")},1200)};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.textContent).then(done,function(){sel(b)})}else sel(b);
+    });
+  });
+  function sel(el){var r=document.createRange(); r.selectNodeContents(el); var s=getSelection(); s.removeAllRanges(); s.addRange(r);}
+  document.getElementById("reset").addEventListener("click",function(){saved={}; store(); render();});
+  render();
+})();
+</script>
