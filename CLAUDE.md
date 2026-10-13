@@ -16,7 +16,7 @@ durations** → budget footage to that number (`tools/shot_budget.py`) → gener
 Never generate visuals before the VO exists and is measured.
 
 ## Tool-fit (don't repeat Episode 1's mistakes)
-- Photoreal B-roll/hero → Kling / Seedance. Narration → ElevenLabs "Arthur" (bible has the ID).
+- Photoreal B-roll/hero → Kling / Seedance. Narration → ElevenLabs preset voice (bible has the ID). **Arthur is retired for the food channel.** Food channel look = simple 3D / stop-motion claymation, not photoreal.
 - **Maps / routes / anything with on-screen text or accurate geography → render in CODE**
   (`the-true-origin-of-southeast-asia/maps/render_maps.py`), NOT a video model. Video models
   hallucinate coastlines and produce gibberish text. Add labels in the editor.
@@ -54,6 +54,6 @@ Never generate visuals before the VO exists and is measured.
   (outline → fact-check → script) before any generation.
 
 ## Starting a new episode
-Say: *"Read the playbook and bible, then start Episode 2 on [topic]."* Reuse Arthur, the style
+Say: *"Read the playbook and bible, then start Episode 2 on [topic]."* Reuse the locked narrator (bible), the style
 prefix, the map renderer, and the download-center pattern. Create a new episode folder; don't touch
 Episode 1's.

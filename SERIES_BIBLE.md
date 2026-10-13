@@ -1,7 +1,31 @@
 # SERIES BIBLE — locked creative + technical settings
 ### Reuse these across every episode so the channel feels like one thing.
 
-## NARRATOR
+## NARRATOR — food-history channel (2026-10-13)
+- **Arthur is retired for the food channel** (user: too close to a famous documentary narrator; want
+  friendlier). Auditioning replacements — same test line, `text2speech_v2` / `elevenlabs` / preset:
+  | Voice | voice_id | audition job |
+  |---|---|---|
+  | Benji (m) | `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` | `03f03dab-938a-45c1-a5db-27f6f9d895ca` |
+  | Miles (m) | `e18664a7-ee4f-5273-acf8-533eb24cd366` | `38a5a932-f8a5-49a4-a6eb-6db5df6b39e1` |
+  | Jasper (m) | `a7b8abe9-47f1-553e-a9df-87945a7e5bc8` | `aed36c36-0828-4940-8e9e-06fe017499ec` |
+  | Daisy (f) | `032386ec-491b-5bdc-81ac-49e9a6a2c89d` | `3bca6d09-fc57-4703-8f62-51c6d612054a` |
+  | Juno (f) | `a3ce02fe-4d3e-55bc-b4d4-a4801b9acdb4` | `8c536277-4ac1-4868-aa83-5b883f5af985` |
+  | Chloe (f) | `e9cfbbf0-4476-46be-b396-596eb774b165` | `24358fdb-2333-4719-a729-04592e7f211b` |
+  _Winner: TBD — lock it here once the user picks._
+
+## VISUAL LOOK — food-history channel (2026-10-13)
+- **Simple 3D / stop-motion claymation** (user pick). Not photoreal — avoids the "AI slop" look.
+- Stills: `nano_banana_pro` with a claymation style prefix; motion: `kling3_0_turbo` image-to-video
+  prompted "stop-motion, shot on twos (~12 fps), slightly choppy handmade movement, camera locked
+  off, no morphing". The choppy look hides small AI motion glitches — that's the point.
+- Always pass `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612` on Kling (the IN THE DARK
+  preset fired on a plain kitchen prompt).
+- Style test jobs: clay still `e55d8400-964e-486a-99a5-bff5e436fba2`, claymation cook
+  `0a15e54b-6d28-4c00-ae84-0a0f7a2a9b89`, claymation map diorama `1eeb5c3c-d423-432a-a051-495c3f7db166`,
+  motion tests `56e2aaa5-6f64-46f3-bb9d-0f6f2a23a737`, `ea6c8747-c78a-4f5e-a929-e832cf402ff8`.
+
+## NARRATOR — Episode 1 (Southeast Asia series, legacy)
 - **Voice:** Arthur (deep, measured, documentary).
 - Engine: ElevenLabs via Higgsfield `generate_audio`.
 - `model: text2speech_v2` · `variant: elevenlabs` · `voice_type: preset`
