@@ -47,6 +47,9 @@ Never generate visuals before the VO exists and is measured.
 ## Status
 - **Episode 1** — "The TRUE Origin of Southeast Asia" (~9:06) — delivered. Assets, timeline, maps,
   thumbnails, and YouTube packaging are all in its folder.
+- **Channel pivot (2026-10-13)** — proposed: faceless **food-history** channel ("the real origin of
+  dishes"). Research + recommendations in **`CHANNEL_STRATEGY.md`** — read it. Awaiting user approval
+  of name / Ep 1 topic.
 - **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
   (outline → fact-check → script) before any generation.
 
