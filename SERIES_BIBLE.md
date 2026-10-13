@@ -12,10 +12,20 @@
   | Daisy (f) | `032386ec-491b-5bdc-81ac-49e9a6a2c89d` | `3bca6d09-fc57-4703-8f62-51c6d612054a` |
   | Juno (f) | `a3ce02fe-4d3e-55bc-b4d4-a4801b9acdb4` | `8c536277-4ac1-4868-aa83-5b883f5af985` |
   | Chloe (f) | `e9cfbbf0-4476-46be-b396-596eb774b165` | `24358fdb-2333-4719-a729-04592e7f211b` |
-  _Winner: TBD — lock it here once the user picks._
+  - **🔒 LOCKED: Marcus (m)** — `voice_id: 6f98d3dd-324f-4845-8c28-c1d1647a06cd`, `voice_type: preset`,
+    `model: text2speech_v2`, `variant: elevenlabs`. Audition job `ee19eb19-cc57-46fb-a18b-3c025e30b865`
+    (46 words → 18.64s ≈ **148 wpm** incl. pauses — still measure every VO).
 
 ## VISUAL LOOK — food-history channel (2026-10-13)
-- **Simple 3D / stop-motion claymation** (user pick). Not photoreal — avoids the "AI slop" look.
+- **🔒 LOCKED: simple 3D clay/diorama look, animated as stop-motion** (user picked motion test
+  clip 1 = `56e2aaa5-6f64-46f3-bb9d-0f6f2a23a737`, made from still `e55d8400-964e-486a-99a5-bff5e436fba2`).
+  Not photoreal — avoids the "AI slop" look.
+- **Style prefix (stills):** "Simple stylised 3D render, soft clay / diorama look, rounded shapes,
+  matte materials, warm soft studio lighting, tilt-shift miniature feel. [scene]. Food modelled
+  accurately and appetisingly. No text."
+- **Motion prefix (Kling i2v):** "Stop-motion animation shot on twos, about 12 frames per second,
+  slightly choppy handmade movement. [action]. Camera locked off. Miniature diorama, consistent
+  characters, no morphing, no text." Use the clay still as `start_image`.
 - Stills: `nano_banana_pro` with a claymation style prefix; motion: `kling3_0_turbo` image-to-video
   prompted "stop-motion, shot on twos (~12 fps), slightly choppy handmade movement, camera locked
   off, no morphing". The choppy look hides small AI motion glitches — that's the point.
