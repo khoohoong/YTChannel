@@ -5,7 +5,7 @@
 - [x] Phase 1 — script approved (v1.2 adds Seg 3B — needs user OK)
 - [x] Phase 2 — VO with **Benji**, 7 files, measured **8:16** (`vo_and_shotlist.md`)
 - [x] Phase 3 — shot list: 80 clips + 7 stills + 4 maps, ~1,100 cr @1080p — **awaiting spend approval**
-- [ ] Phase 4 — generate clay stills + stop-motion clips (style/motion prefixes in SERIES_BIBLE.md)
+- [~] Phase 4 — **86 clay stills done (172 cr)** + **4 maps rendered in code** (`maps/`). **Awaiting user review of stills** → then animate approved stills (~800 cr @1080p). Job IDs in `assets.md`.
 - [ ] Phase 5 — review; Phase 6 — timeline, download center, Shorts cuts, packaging
 
 ## Notes

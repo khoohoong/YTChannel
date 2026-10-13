@@ -52,7 +52,7 @@ Never generate visuals before the VO exists and is measured.
   clay + stop-motion** (both locked in SERIES_BIBLE.md).
 - **Origin Plate Ep 1 — Carbonara** (`origin-plate-ep01-carbonara/`): script v1 written + fact-checked,
   script approved; VO recorded with Benji and **measured 8:16** (`vo_and_shotlist.md`); shot list +
-  cost written. **Awaiting user OK on added Seg 3B + ~1,100-credit visual batch** → then Phase 4.
+  cost written. Seg 3B approved. Phase 4 in progress: 86 clay stills + 4 code maps done; **awaiting user review of stills**, then animate (~800 cr).
 - **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
   (outline → fact-check → script) before any generation.
 
