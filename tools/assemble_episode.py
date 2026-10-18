@@ -47,7 +47,7 @@ def fetch(url, dst, kind):
         elif kind == "image": run([FF, "-y", "-f", "lavfi", "-i", f"testsrc2=s=2752x1536:d=1", "-frames:v", "1", dst])
         else: run([FF, "-y", "-f", "lavfi", "-i", f"testsrc2=s={W}x{H}:r={FPS}:d=5", dst])
         return
-    urllib.request.urlretrieve(url, dst)
+    subprocess.run(["curl", "-sSfL", "--retry", "3", "-o", dst, url], check=True)
 
 def drawtext(items, start=0.0):
     f = []; en = f":enable='gte(t,{start:.2f})'" if start else ""
