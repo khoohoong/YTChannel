@@ -14,3 +14,7 @@
 - First 6 VO files measured 7:21 → added Seg 3B "going global" (55s) → 8:16.
 - Maps (Rome, Riccione, Chicago) → code renderer, restyled to the clay palette. No AI-generated text.
 - Next episode tease in the close: fortune cookies.
+
+## Render (2026-10-18)
+- Full cut assembled in code: `python3 tools/assemble_episode.py origin-plate-ep01-carbonara` → `render/origin-plate-ep01-carbonara_nomusic.mp4` (8:24, 1080p, 137 MB, no music). Sent to user directly. Render folder is git-ignored; re-run the script to rebuild.
+- Needs the sandbox network to allow `d8j0ntlcm91z4.cloudfront.net` (user enabled it 2026-10-18).

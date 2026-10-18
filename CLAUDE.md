@@ -41,8 +41,8 @@ Never generate visuals before the VO exists and is measured.
   `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`. It fired on a plain kitchen prompt too — pass it on EVERY Kling call.
 - The word **"elevated"** triggers the "ELEVATE" preset (`5b3c1307-bee6-46e1-bdee-fba2db843d00`) — avoid the word (use "overhead").
 - CloudFront asset URLs expire → keep Higgsfield **job IDs** in `assets.md` to re-fetch.
-- This sandbox's network **blocks the Higgsfield CDN** (`d8j0ntlcm91z4.cloudfront.net`), so you
-  can't `curl` generated assets here — deliver URLs to the user, who downloads on their own machine.
+- The Higgsfield CDN (`d8j0ntlcm91z4.cloudfront.net`) is now allowed in this environment (2026-10-18), so
+  assets can be downloaded and **whole episodes assembled here** with `tools/assemble_episode.py`.
 - Set git identity `noreply@anthropic.com` / `Claude` at the start or commits show as unverified.
 
 ## Status
@@ -53,7 +53,7 @@ Never generate visuals before the VO exists and is measured.
   clay + stop-motion** (both locked in SERIES_BIBLE.md).
 - **Origin Plate Ep 1 — Carbonara** (`origin-plate-ep01-carbonara/`): script v1 written + fact-checked,
   script approved; VO recorded with Benji and **measured 8:16** (`vo_and_shotlist.md`); shot list +
-  cost written. Seg 3B approved. All visuals generated (86 stills, 80 clips, 4 maps); timeline + download page done (see episode README). **Awaiting user clip review**; then thumbnail, packaging, Shorts.
+  cost written. Seg 3B approved. All visuals generated (86 stills, 80 clips, 4 maps); timeline + download page done (see episode README). **Full 8:24 cut rendered in code** (`tools/assemble_episode.py`, no music) and sent to user. Next: user review, music, thumbnail, packaging, Shorts.
 - **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
   (outline → fact-check → script) before any generation.
 
