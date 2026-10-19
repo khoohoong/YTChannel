@@ -70,38 +70,56 @@ def norm(src, dst, length, kind, text):
     vf += drawtext(text, length * 0.65 if kind == "map" else 0.0) + ["format=yuv420p"]
     run([FF, "-y", *inp, "-t", f"{length:.3f}", "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", dst])
 
+sys.path.insert(0, G)
+from cuesheet import CUES   # word-synced shot list (see gen/cuesheet.py)
+LEAD = 0.12                  # cut a hair before the word so picture leads the voice
+
+def src_len(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path], capture_output=True, text=True).stdout
+    return float(out.strip())
+
+def fit_video(src, dst, slot, pingpong_ok):
+    """Retime a clip/map to exactly `slot` seconds: trim if longer; slow down up to 1.5x if a bit short;
+    ping-pong (forward+reverse) ambient clips if much shorter; finally hold the last frame if still short."""
+    L = src_len(src); chain = []
+    if slot <= L:
+        chain = [f"trim=duration={slot:.3f}", "setpts=PTS-STARTPTS"]
+    elif slot <= 1.5 * L or not pingpong_ok:
+        f = min(slot / L, 1.5); chain = [f"setpts={f:.4f}*PTS"]
+    else:
+        f = min(slot / (2 * L), 1.5)
+        flt = f"[0:v]split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0,setpts={f:.4f}*PTS,fps={FPS},tpad=stop_mode=clone:stop_duration=30,trim=duration={slot:.3f}[o]"
+        run([FF, "-y", "-i", src, "-filter_complex", flt, "-map", "[o]", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", dst]); return
+    chain += [f"fps={FPS}", "tpad=stop_mode=clone:stop_duration=30", f"trim=duration={slot:.3f}"]
+    run([FF, "-y", "-i", src, "-vf", ",".join(chain), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", dst])
+
 seg_files = []; vo_files = []
 for seg, dur in SEG:
-    rows = []; mp = MAPS.get(seg)
-    if mp and mp[0] is None: rows.append(("map", mp[1], mp[2]))
-    for x in p:
-        sid = x["id"]
-        if not sid.startswith(seg + "-"): continue
-        rows.append(("still", sid, SDUR[sid]) if "-S" in sid else ("clip", sid, 5))
-        if mp and mp[0] == sid: rows.append(("map", mp[1], mp[2]))
-    target = dur + BREATH if seg != "VO5" else dur + 3.0   # last segment: 3s tail for end card / music out
-    total = sum(r[2] for r in rows); rows[-1] = (rows[-1][0], rows[-1][1], rows[-1][2] + (target - total))
+    target = dur + BREATH if seg != "VO5" else dur + 3.0
+    cues = CUES[seg]
+    starts = [max(0.0, c[0] - LEAD) if i else 0.0 for i, c in enumerate(cues)]
     parts = []
-    for k, (kind, name, ln) in enumerate(rows):
-        if kind == "map":
-            src = os.path.join(E, "maps", "map_clips", name)
-        elif kind == "still":
-            src = os.path.join(S, f"E1_{name}.png"); fetch(still[idx[name]], src, "image")
-        else:
-            src = os.path.join(S, f"E1_{name}.mp4"); fetch(clip[idx[name]], src, "video")
+    for k, (t0, shot, _anchor, overlay) in enumerate(cues):
+        slot = (starts[k + 1] if k + 1 < len(cues) else target) - starts[k]
         out = os.path.join(T, f"{seg}_{k:02d}.mp4")
-        # a clip shorter than its slot holds its last frame (tpad) instead of stretching
-        if kind != "still":
-            tmp = out + ".pad.mp4"
-            run([FF, "-y", "-i", src, "-vf", f"tpad=stop_mode=clone:stop_duration=10", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", tmp]); src = tmp
-        norm(src, out, ln, kind, TEXT.get(name, []))
+        if shot.startswith("MAP:"):
+            name = shot[4:]; src = os.path.join(E, "maps", "map_clips", name)
+            fitted = out + ".fit.mp4"; fit_video(src, fitted, slot, pingpong_ok=False)
+            norm(fitted, out, slot, "map", TEXT.get(name, []))
+        elif "-S" in shot:
+            src = os.path.join(S, f"E1_{shot}.png"); fetch(still[idx[shot]], src, "image")
+            norm(src, out, slot, "still", [(overlay, None, 900)] if overlay else [])
+        else:
+            src = os.path.join(S, f"E1_{shot}.mp4"); fetch(clip[idx[shot]], src, "video")
+            fitted = out + ".fit.mp4"; fit_video(src, fitted, slot, pingpong_ok=True)
+            norm(fitted, out, slot, "clip", [(overlay, None, 900)] if overlay else [])
         parts.append(out)
     lst = os.path.join(T, f"{seg}.txt"); open(lst, "w").write("".join(f"file '{x}'\n" for x in parts))
     sf = os.path.join(T, f"{seg}.mp4"); run([FF, "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", sf]); seg_files.append(sf)
     vsrc = os.path.join(S, f"E1_{seg}.mp3"); fetch(vo[seg], vsrc, "audio")
     vpad = os.path.join(T, f"{seg}_vo.wav")
     run([FF, "-y", "-i", vsrc, "-af", f"apad=whole_dur={target:.3f}", "-ar", "48000", "-ac", "2", vpad]); vo_files.append(vpad)
-    print(f"{seg}: {len(rows)} shots, {target:.2f}s", flush=True)
+    print(f"{seg}: {len(cues)} shots, {target:.2f}s", flush=True)
 
 lst = os.path.join(T, "all.txt"); open(lst, "w").write("".join(f"file '{x}'\n" for x in seg_files))
 pic = os.path.join(T, "picture.mp4"); run([FF, "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", pic])
