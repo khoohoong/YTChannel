@@ -18,3 +18,7 @@
 ## Render (2026-10-18)
 - Full cut assembled in code: `python3 tools/assemble_episode.py origin-plate-ep01-carbonara` → `render/origin-plate-ep01-carbonara_nomusic.mp4` (8:24, 1080p, 137 MB, no music). Sent to user directly. Render folder is git-ignored; re-run the script to rebuild.
 - Needs the sandbox network to allow `d8j0ntlcm91z4.cloudfront.net` (user enabled it 2026-10-18).
+- **v2 (2026-10-19):** user flagged picture/VO mismatch (esp. first minute). Fixed by syncing every cut to the
+  narration: Whisper word timestamps (`gen/transcribe_vo.py` → `gen/vo_words.json`), hand-authored cue sheet
+  (`gen/cuesheet.py`), assembler retimes clips (trim / ≤1.5× slow / ping-pong / hold) and frame-aligns slots.
+  Picture 503.71s = audio 503.70s. Sent to user.

@@ -36,6 +36,11 @@
   over a 12s slot is NOT — that was Ep 1's headline bug).
 - [ ] Write the shot list to the measured VO. Use `tools/shot_budget.py` to do the math.
 
+## PHASE 3b — Sync the cut to the words  ⭐ learned on Origin Plate Ep 1
+- Equal 5s slots drift away from the narration (user noticed in the first minute). After VO is recorded,
+  run `gen/transcribe_vo.py` (faster-whisper word timestamps) and write a cue sheet that starts each shot on
+  the word it illustrates. `tools/assemble_episode.py` reads it and retimes clips to fit, frame-aligned.
+
 ## PHASE 4 — Generate, one clean batch
 - [ ] Use the locked **style prefix** (SERIES_BIBLE.md) on every prompt for visual coherence.
 - [ ] **Bake `declined_preset_id` into every dim/night/underwater prompt** so the "IN THE DARK"
