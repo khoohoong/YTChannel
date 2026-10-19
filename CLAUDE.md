@@ -53,7 +53,7 @@ Never generate visuals before the VO exists and is measured.
   clay + stop-motion** (both locked in SERIES_BIBLE.md).
 - **Origin Plate Ep 1 — Carbonara** (`origin-plate-ep01-carbonara/`): script v1 written + fact-checked,
   script approved; VO recorded with Benji and **measured 8:16** (`vo_and_shotlist.md`); shot list +
-  cost written. Seg 3B approved. All visuals generated (86 stills, 80 clips, 4 maps); timeline + download page done (see episode README). **Full 8:24 cut rendered in code** (`tools/assemble_episode.py`, no music) and sent to user. Next: user review, music, thumbnail, packaging, Shorts.
+  cost written. Seg 3B approved. All visuals generated (86 stills, 80 clips, 4 maps); timeline + download page done (see episode README). **v3 cut (8:15) rendered in code** — word-synced, teaser removed, year tags; sent to user. Next: user supplies 3 Suno tracks (music_brief.md) → mix; then thumbnail, packaging, Shorts. Future episodes: no next-episode teasers (user wants stand-alone episodes).
 - **Episode 2** — not started. To begin: confirm topic, then run Phase 0 → 1 of the playbook
   (outline → fact-check → script) before any generation.
 

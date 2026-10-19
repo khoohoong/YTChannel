@@ -22,3 +22,6 @@
   narration: Whisper word timestamps (`gen/transcribe_vo.py` → `gen/vo_words.json`), hand-authored cue sheet
   (`gen/cuesheet.py`), assembler retimes clips (trim / ≤1.5× slow / ping-pong / hold) and frame-aligns slots.
   Picture 503.71s = audio 503.70s. Sent to user.
+- **v3 (2026-10-19):** next-episode teaser cut from VO5 (stand-alone episode; `VO_CUTS` in cuesheet), fortune-cookie
+  shot dropped; 16 lower-left year/place tags (`YEAR_TAGS`) replace one-off captions. Runtime 8:15 (495.29s,
+  picture = audio). 0 Higgsfield credits. Sent to user. Awaiting Suno music (brief: `music_brief.md`).
