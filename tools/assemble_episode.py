@@ -95,12 +95,14 @@ def fit_video(src, dst, slot, pingpong_ok):
 
 seg_files = []; vo_files = []
 for seg, dur in SEG:
-    target = dur + BREATH if seg != "VO5" else dur + 3.0
+    # work in whole frames so picture and audio can't drift apart
+    fr = lambda x: round(x * FPS)
+    target_f = fr(dur + BREATH if seg != "VO5" else dur + 3.0); target = target_f / FPS
     cues = CUES[seg]
-    starts = [max(0.0, c[0] - LEAD) if i else 0.0 for i, c in enumerate(cues)]
+    starts_f = [fr(max(0.0, c[0] - LEAD)) if i else 0 for i, c in enumerate(cues)] + [target_f]
     parts = []
     for k, (t0, shot, _anchor, overlay) in enumerate(cues):
-        slot = (starts[k + 1] if k + 1 < len(cues) else target) - starts[k]
+        slot = (starts_f[k + 1] - starts_f[k]) / FPS
         out = os.path.join(T, f"{seg}_{k:02d}.mp4")
         if shot.startswith("MAP:"):
             name = shot[4:]; src = os.path.join(E, "maps", "map_clips", name)
