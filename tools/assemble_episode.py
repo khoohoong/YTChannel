@@ -71,7 +71,7 @@ def norm(src, dst, length, kind, text):
     run([FF, "-y", *inp, "-t", f"{length:.3f}", "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", dst])
 
 sys.path.insert(0, G)
-from cuesheet import CUES   # word-synced shot list (see gen/cuesheet.py)
+from cuesheet import CUES, VO_CUTS, YEAR_TAGS   # word-synced shot list + audio cuts + year tags
 LEAD = 0.12                  # cut a hair before the word so picture leads the voice
 
 def src_len(path):
@@ -93,7 +93,8 @@ def fit_video(src, dst, slot, pingpong_ok):
     chain += [f"fps={FPS}", "tpad=stop_mode=clone:stop_duration=30", f"trim=duration={slot:.3f}"]
     run([FF, "-y", "-i", src, "-vf", ",".join(chain), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", dst])
 
-seg_files = []; vo_files = []
+SEG = [(sg, d - sum(b - a for a, b in VO_CUTS.get(sg, []))) for sg, d in SEG]
+seg_files = []; vo_files = []; seg_starts = []; t_acc = 0.0
 for seg, dur in SEG:
     # work in whole frames so picture and audio can't drift apart
     fr = lambda x: round(x * FPS)
@@ -119,8 +120,16 @@ for seg, dur in SEG:
     lst = os.path.join(T, f"{seg}.txt"); open(lst, "w").write("".join(f"file '{x}'\n" for x in parts))
     sf = os.path.join(T, f"{seg}.mp4"); run([FF, "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", sf]); seg_files.append(sf)
     vsrc = os.path.join(S, f"E1_{seg}.mp3"); fetch(vo[seg], vsrc, "audio")
+    if seg in VO_CUTS:   # remove cut ranges, 20ms fades at each join to avoid clicks
+        keep, t = [], 0.0
+        for a0, b0 in VO_CUTS[seg]: keep.append((t, a0)); t = b0
+        keep.append((t, 999.0))
+        fl = ";".join(f"[0:a]atrim={x:.3f}:{y:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,areverse,afade=t=in:d=0.02,areverse[k{i}]" for i, (x, y) in enumerate(keep))
+        fl += ";" + "".join(f"[k{i}]" for i in range(len(keep))) + f"concat=n={len(keep)}:v=0:a=1[o]"
+        cut = os.path.join(T, f"{seg}_cut.wav"); run([FF, "-y", "-i", vsrc, "-filter_complex", fl, "-map", "[o]", cut]); vsrc = cut
     vpad = os.path.join(T, f"{seg}_vo.wav")
     run([FF, "-y", "-i", vsrc, "-af", f"apad=whole_dur={target:.3f}", "-ar", "48000", "-ac", "2", vpad]); vo_files.append(vpad)
+    seg_starts.append((seg, t_acc)); t_acc += target
     print(f"{seg}: {len(cues)} shots, {target:.2f}s", flush=True)
 
 lst = os.path.join(T, "all.txt"); open(lst, "w").write("".join(f"file '{x}'\n" for x in seg_files))
@@ -128,5 +137,16 @@ pic = os.path.join(T, "picture.mp4"); run([FF, "-y", "-f", "concat", "-safe", "0
 alst = os.path.join(T, "vo.txt"); open(alst, "w").write("".join(f"file '{x}'\n" for x in vo_files))
 aud = os.path.join(T, "vo.wav"); run([FF, "-y", "-f", "concat", "-safe", "0", "-i", alst, "-c", "copy", aud])
 out = os.path.join(R, f"{EP}_nomusic{'_FAKE' if FAKE else ''}.mp4")
-run([FF, "-y", "-i", pic, "-i", aud, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
+tags = []
+for seg, st in seg_starts:
+    for t0, txt in YEAR_TAGS.get(seg, []): tags.append((st + t0, txt))
+tags.sort(); vf = []
+for i, (a0, txt) in enumerate(tags):
+    b0 = min(a0 + 4.0, tags[i + 1][0] - 0.2) if i + 1 < len(tags) else a0 + 4.0
+    al = f"if(lt(t,{a0:.2f}+0.35),(t-{a0:.2f})/0.35,if(gt(t,{b0:.2f}-0.35),({b0:.2f}-t)/0.35,1))"
+    txt = txt.replace(":", r"\:")
+    vf.append(f"drawtext=fontfile={FONT}:text='{txt}':x=80:y=h-150:fontsize=52:fontcolor=0xF6EBD9:"
+              f"box=1:boxcolor=0x26221D@0.6:boxborderw=18:enable='between(t,{a0:.2f},{b0:.2f})':alpha='{al}'")
+vcodec = ["-vf", ",".join(vf), "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p"] if vf else ["-c:v", "copy"]
+run([FF, "-y", "-i", pic, "-i", aud, "-map", "0:v", "-map", "1:a", *vcodec, "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
 print("DONE", out)

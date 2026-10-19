@@ -19,12 +19,14 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 0:30.72 | `VO0-C7` | “Except, when historians went looking” |  |
 | 0:34.42 | `VO0-C8` | “they found something strange, nothing” |  |
 | 0:38.34 | `VO0-C9` | “No carbonara in the cookbooks” |  |
-| 0:43.76 | `VO2-S1` | “the name doesn't appear in print until 1950” | 1950 |
+| 0:43.76 | `VO2-S1` | “the name doesn't appear in print until 1950” |  |
 | 0:49.04 | `VO4-C4` | “Italy's most fought-over pasta” |  |
 | 0:53.00 | `VO1-C1` | “charcoal burners” |  |
 | 0:54.94 | `VO1-C6` | “a secret society” |  |
 | 0:56.78 | `VO3-C4` | “a Chicago restaurant guide” |  |
 | 0:58.80 | `VO0-C10` | “and a lot of American bacon” |  |
+| 0:13.44 | *year tag* | | **2025** |
+| 0:43.76 | *year tag* | | **1950** |
 
 ## The legends — `E1_VO1.mp3` (102.96s) · starts 1:00.91
 
@@ -50,6 +52,8 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 2:33.43 | `VO1-C12` | “Pasta with eggs and cheese is not carbonara” |  |
 | 2:36.23 | `VO1-C16` | “just like bread and meat isn't a hamburger” |  |
 | 2:39.21 | `VO1-C17` | “To find carbonara itself... go to war” |  |
+| 1:34.11 | *year tag* | | **Italy  ·  1800s** |
+| 2:00.69 | *year tag* | | **Naples  ·  late 1830s** |
 
 ## The soldiers — `E1_VO2.mp3` (112.96s) · starts 2:44.62
 
@@ -70,11 +74,14 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 3:47.64 | `VO2-C12` | “With their rations” |  |
 | 3:52.58 | `VO2-C13` | “he made a pasta and finished it with black pepper” |  |
 | 3:56.50 | `VO2-C14` | “It's a great story, but” |  |
-| 4:05.04 | `VO2-S1` | “What we can confirm... 26th of July, 1950” | La Stampa  ·  26 July 1950 |
+| 4:05.04 | `VO2-S1` | “What we can confirm... 26th of July, 1950” |  |
 | 4:16.38 | `VO2-C15` | “a story about Trastevere” |  |
 | 4:20.50 | `VO2-C16` | “It mentions a local restaurant” |  |
 | 4:26.02 | `VO2-C17` | “came looking for spaghetti alla carbonara” |  |
 | 4:30.72 | `VO2-C18` | “American officers, not Roman grandmothers” |  |
+| 2:44.62 | *year tag* | | **Rome  ·  June 1944** |
+| 3:35.46 | *year tag* | | **Riccione  ·  September 1944** |
+| 4:09.34 | *year tag* | | **La Stampa  ·  26 July 1950** |
 
 ## The recipe that kept changing — `E1_VO3.mp3` (82.40s) · starts 4:38.33
 
@@ -89,13 +96,18 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 5:13.49 | `VO3-C8` | “a Roman purist... might faint” |  |
 | 5:17.43 | `VO3-C6` | “Pancetta, not guanciale” |  |
 | 5:19.75 | `VO3-C7` | “Garlic and Gruyère” |  |
-| 5:24.45 | `VO3-S1` | “Over the next 40 years” | 1954  ·  1960  ·  mid-1960s  ·  1990s |
+| 5:24.45 | `VO3-S1` | “Over the next 40 years” |  |
 | 5:28.21 | `VO3-C9` | “guanciale first showing up” |  |
 | 5:33.71 | `VO3-C10` | “Pecorino started to edge out parmesan” |  |
 | 5:37.43 | `VO3-C11` | “And cream?” |  |
 | 5:43.89 | `VO3-C12` | “It only fell out of favor” |  |
 | 5:46.93 | `VO3-C13` | “the strict version: egg, guanciale, pecorino, pepper” |  |
 | 5:54.87 | `VO0-C1` | “So the recipe purists guard so fiercely” |  |
+| 4:47.33 | *year tag* | | **Chicago  ·  1952** |
+| 5:07.27 | *year tag* | | **Italy  ·  August 1954** |
+| 5:28.95 | *year tag* | | **1960** |
+| 5:33.71 | *year tag* | | **Mid-1960s** |
+| 5:43.89 | *year tag* | | **1990s** |
 
 ## Going global — `E1_VO3B.mp3` (55.28s) · starts 6:01.48
 
@@ -108,16 +120,19 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 6:22.68 | `VO3B-C4` | “The carbonara much of the world grew up on” |  |
 | 6:27.68 | `VO3B-C5` | “the world fell for it... foreign visitors” |  |
 | 6:34.68 | `VO3B-C6` | “three favorite pastas” |  |
-| 6:42.98 | `VO3B-S1` | “its own holiday” | 6 April  ·  Carbonara Day |
+| 6:42.98 | `VO3B-S1` | “its own holiday” |  |
 | 6:51.48 | `VO3B-C7` | “And every year, right on schedule” |  |
 | 6:53.88 | `VO3B-C8` | “the internet starts arguing about cream” |  |
+| 6:06.54 | *year tag* | | **Britain  ·  1954** |
+| 6:42.98 | *year tag* | | **Since 2017** |
+| 6:46.72 | *year tag* | | **6 April  ·  Carbonara Day** |
 
 ## The fight — `E1_VO4.mp3` (58.48s) · starts 6:57.51
 
 | TC | Shot | On the words | Overlay |
 |---|---|---|---|
 | 6:57.51 | `VO4-C1` | “an Italian food historian” |  |
-| 7:01.21 | `VO4-S1` | “told the Financial Times” | Financial Times  ·  March 2023 |
+| 7:01.21 | `VO4-S1` | “told the Financial Times” |  |
 | 7:06.69 | `VO4-C8` | “that wartime story” |  |
 | 7:13.15 | `VO4-C2` | “Italy did not take it well... farmers” |  |
 | 7:19.99 | `VO4-C3` | “A deputy prime minister weighed in” |  |
@@ -127,13 +142,13 @@ Rendered automatically by `tools/assemble_episode.py`; this file is the human-re
 | 7:39.95 | `VO4-C7` | “But the dish we call carbonara” |  |
 | 7:46.63 | `VO4-C9` | “when American supplies met Italian cooks” |  |
 | 7:49.81 | `VO4-C10` | “Italian genius and American resources” |  |
+| 6:57.87 | *year tag* | | **Financial Times  ·  March 2023** |
 
-## Close — `E1_VO5.mp3` (23.92s) · starts 7:56.74
+## Close — `E1_VO5.mp3` (15.52s) · starts 7:56.74
 
 | TC | Shot | On the words | Overlay |
 |---|---|---|---|
 | 7:56.74 | `VO5-C1` | “Carbonara isn't ancient” |  |
 | 8:03.34 | `VO5-C2` | “Every great dish started somewhere” |  |
-| 8:09.20 | `VO5-C3` | “Next time... a cookie” |  |
-| 8:17.46 | `VO5-C4` | “This has been Origin Plate” |  |
+| 8:09.06 | `VO5-C4` | “This has been Origin Plate” |  |
 

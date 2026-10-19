@@ -3,7 +3,7 @@
 # Length: ~1,100 words. Benji measured ~174 wpm on his audition → est. ~6:30–7:00 (MEASURE after VO).
 # If the measured VO is under 8:00, add a short "how carbonara went global" beat to clear the 8-min mid-roll mark.
 # Segment timecodes below are rough guides from the earlier longer estimate — re-time after VO.
-# STATUS: v1.2 — APPROVED 2026-10-13. VO recorded + measured (see vo_durations.md). Seg 3B added to clear 8:00 — needs user OK. Fact-check log at bottom; every hard claim is sourced.
+# STATUS: v1.3 (2026-10-19: next-episode teaser removed so the episode stands alone) · was v1.2 — APPROVED 2026-10-13. VO recorded + measured (see vo_durations.md). Seg 3B added to clear 8:00 — needs user OK. Fact-check log at bottom; every hard claim is sourced.
 
 ---
 
@@ -102,8 +102,6 @@ As the Italian food writer Eleonora Cozzella put it: it was a combination of Ita
 ## CLOSE (≈8:50–9:20)
 
 Carbonara isn't ancient. It's younger than your grandparents. And that doesn't make it any less Italian. Every great dish started somewhere — usually with hungry people and whatever was in the pantry.
-
-Next time on Origin Plate: a cookie you get at Chinese restaurants all over America… that may not be Chinese at all.
 
 This has been Origin Plate. Now go cook something.
 

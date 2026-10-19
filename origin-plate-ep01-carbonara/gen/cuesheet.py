@@ -16,7 +16,7 @@ CUES = {
  (30.72, "VO0-C7", "Except, when historians went looking", None),
  (34.42, "VO0-C8", "they found something strange, nothing", None),
  (38.34, "VO0-C9", "No carbonara in the cookbooks", None),
- (43.76, "VO2-S1", "the name doesn't appear in print until 1950", "1950"),
+ (43.76, "VO2-S1", "the name doesn't appear in print until 1950", None),
  (49.04, "VO4-C4", "Italy's most fought-over pasta", None),
  (53.00, "VO1-C1", "charcoal burners", None),
  (54.94, "VO1-C6", "a secret society", None),
@@ -59,7 +59,7 @@ CUES = {
  (63.02, "VO2-C12", "With their rations", None),
  (67.96, "VO2-C13", "he made a pasta and finished it with black pepper", None),
  (71.88, "VO2-C14", "It's a great story, but", None),
- (80.42, "VO2-S1", "What we can confirm... 26th of July, 1950", "La Stampa  ·  26 July 1950"),
+ (80.42, "VO2-S1", "What we can confirm... 26th of July, 1950", None),
  (91.76, "VO2-C15", "a story about Trastevere", None),
  (95.88, "VO2-C16", "It mentions a local restaurant", None),
  (101.40, "VO2-C17", "came looking for spaghetti alla carbonara", None),
@@ -74,7 +74,7 @@ CUES = {
  (35.16, "VO3-C8", "a Roman purist... might faint", None),
  (39.10, "VO3-C6", "Pancetta, not guanciale", None),
  (41.42, "VO3-C7", "Garlic and Gruyère", None),
- (46.12, "VO3-S1", "Over the next 40 years", "1954  ·  1960  ·  mid-1960s  ·  1990s"),
+ (46.12, "VO3-S1", "Over the next 40 years", None),
  (49.88, "VO3-C9", "guanciale first showing up", None),
  (55.38, "VO3-C10", "Pecorino started to edge out parmesan", None),
  (59.10, "VO3-C11", "And cream?", None),
@@ -89,12 +89,12 @@ CUES = {
  (21.20, "VO3B-C4", "The carbonara much of the world grew up on", None),
  (26.20, "VO3B-C5", "the world fell for it... foreign visitors", None),
  (33.20, "VO3B-C6", "three favorite pastas", None),
- (41.50, "VO3B-S1", "its own holiday", "6 April  ·  Carbonara Day"),
+ (41.50, "VO3B-S1", "its own holiday", None),
  (50.00, "VO3B-C7", "And every year, right on schedule", None),
  (52.40, "VO3B-C8", "the internet starts arguing about cream", None)],
 "VO4": [
  (0.00, "VO4-C1", "an Italian food historian", None),
- (3.70, "VO4-S1", "told the Financial Times", "Financial Times  ·  March 2023"),
+ (3.70, "VO4-S1", "told the Financial Times", None),
  (9.18, "VO4-C8", "that wartime story", None),
  (15.64, "VO4-C2", "Italy did not take it well... farmers", None),
  (22.48, "VO4-C3", "A deputy prime minister weighed in", None),
@@ -107,6 +107,21 @@ CUES = {
 "VO5": [
  (0.00, "VO5-C1", "Carbonara isn't ancient", None),
  (6.60, "VO5-C2", "Every great dish started somewhere", None),
- (12.46, "VO5-C3", "Next time... a cookie", None),
- (20.72, "VO5-C4", "This has been Origin Plate", None)],
+ (12.32, "VO5-C4", "This has been Origin Plate", None)],
+}
+
+# Audio cuts applied to the measured VO before assembly: seg -> [(cut_from_s, cut_to_s)].
+# VO5: removed the "Next time on Origin Plate... fortune cookie" teaser so the episode stands alone (user, 2026-10-19).
+VO_CUTS = {"VO5": [(12.20, 20.60)]}
+
+# Year / place tags shown lower-left as the story moves through time: seg -> [(local_s, text)].
+# Each shows ~4s (shorter if the next tag comes sooner). Dates match the fact-check log in script.md.
+YEAR_TAGS = {
+ "VO0": [(13.44, "2025"), (43.76, "1950")],
+ "VO1": [(33.20, "Italy  ·  1800s"), (59.78, "Naples  ·  late 1830s")],
+ "VO2": [(0.00, "Rome  ·  June 1944"), (50.84, "Riccione  ·  September 1944"), (84.72, "La Stampa  ·  26 July 1950")],
+ "VO3": [(9.00, "Chicago  ·  1952"), (28.94, "Italy  ·  August 1954"), (50.62, "1960"), (55.38, "Mid-1960s"), (65.56, "1990s")],
+ "VO3B": [(5.06, "Britain  ·  1954"), (41.50, "Since 2017"), (45.24, "6 April  ·  Carbonara Day")],
+ "VO4": [(0.36, "Financial Times  ·  March 2023")],
+ "VO5": [],
 }
