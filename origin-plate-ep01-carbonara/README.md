@@ -25,3 +25,6 @@
 - **v3 (2026-10-19):** next-episode teaser cut from VO5 (stand-alone episode; `VO_CUTS` in cuesheet), fortune-cookie
   shot dropped; 16 lower-left year/place tags (`YEAR_TAGS`) replace one-off captions. Runtime 8:15 (495.29s,
   picture = audio). 0 Higgsfield credits. Sent to user. Awaiting Suno music (brief: `music_brief.md`).
+- **Short (2026-11-02):** stand-alone 52s VO (Benji, job `13fc9d35-9ead-415b-ae86-b6e8654442cd`, script `short/short_script.md`),
+  existing clips only, vertical 1080x1920 via `tools/assemble_short.py` + `short/short_cues.py` (word-timed captions,
+  year tags, 3.6s hook title). 53.5s total. Sent to user. Works for YouTube Shorts + Facebook Reels.
