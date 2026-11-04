@@ -3,6 +3,7 @@
 This repo produces an AI-assisted **YouTube documentary series**. A new chat starts with no memory
 of past sessions — **all continuity lives in these files.** Read them before doing anything:
 
+0. **`STORYTELLING_PLAYBOOK.md`** — how every script is structured (Story Spine, hooks, Shorts formats). Use its checklist before recording any VO.
 1. **`PRODUCTION_PLAYBOOK.md`** — the ordered pipeline and every hard-won lesson. Follow the phase
    order; it exists because doing things out of order cost real time and credits on Episode 1.
 2. **`SERIES_BIBLE.md`** — locked reusable settings: narrator voice ID + model, the generation
