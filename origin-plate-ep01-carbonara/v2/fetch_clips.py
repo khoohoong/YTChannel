@@ -3,7 +3,9 @@ import subprocess,datetime,concurrent.futures as cf,os,time,sys
 rows=[l.split() for l in open('clip_jobs.tsv')]
 ids={l.split('\t')[0]:l.split('\t')[1] for l in open('still_jobs.tsv')}
 base="https://d8j0ntlcm91z4.cloudfront.net/user_30b7CTGiTTJpfv3eHgP4QQtBJ1y/hf_20261113_%s_%s.mp4"
-W=[(datetime.datetime(2026,11,13,6,48,50)+datetime.timedelta(seconds=k)).strftime('%H%M%S') for k in range(260)]
+import os as _o
+_h,_m,_s,_n=[int(x) for x in _o.environ.get('WIN','6,48,50,260').split(',')]
+W=[(datetime.datetime(2026,11,13,_h,_m,_s)+datetime.timedelta(seconds=k)).strftime('%H%M%S') for k in range(_n)]
 found={}
 if os.path.exists('clip_urls.tsv'):
     for l in open('clip_urls.tsv'):
