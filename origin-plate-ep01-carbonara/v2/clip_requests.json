@@ -1,0 +1,1770 @@
+[
+{
+"index": 0,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "5d41dd63-bc66-472c-a3be-8062efe06968",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She lifts the plate proudly and nods. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 5,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d11ee978-3609-42c2-a1f0-aacc6b0042ea",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She recoils and pushes the cream carton away. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 6,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "b3acb450-3238-4341-9f71-6863ef3be78f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in, the portraits wobble slightly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 7,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "0f53db06-aef6-42a4-9adc-e5ae385d463d",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He opens the book, dust puffs up, he looks surprised. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 11,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "8e95c75a-45c8-4307-b6db-42e286c15954",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The crowd shakes their forks, he shrugs. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 12,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "1780a644-2b7b-44d9-84f5-cd95dee5551f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He adjusts his glasses and smiles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 13,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "30fd3b48-143c-4fe4-9993-4024f4f8e61b",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He moves the magnifying glass over the pasta. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 14,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "cab69c22-345e-4d81-8ac3-d99c37c58acf",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He climbs one rung and reaches for a book. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 15,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ce538457-5868-4b80-8cc7-c312c60d97d4",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. A page turns, the candle flickers. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 16,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "e5071cc6-5f37-42f1-8c36-53e9df32cf7b",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The hands toss the pasta. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 17,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "75984fc8-04cf-4a78-847e-7d8daeb8e7eb",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He tosses the pasta with a flourish. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 19,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "c717323d-6254-4677-9764-c0091d746ee9",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The shepherd stirs the pan, smoke rises. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 21,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "2ddcac35-eb08-4e30-b4b1-da93ac67c7ca",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The tomato drops in and the sauce turns red. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 22,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d3d87fc9-6986-48ff-a8f3-3b537a00cc36",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The hand hovers the egg and pauses. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 23,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "8bc30581-4122-4b75-8324-c8a901cd7bdf",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. A piece slides toward the gap but stops. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 24,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "c65f8f69-6150-4a85-973e-296bd052bc32",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He flips pages and scratches his head. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 25,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "a71516c3-c0cd-4997-a5c9-cb16223ca94d",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 26,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "05ceb79b-5b80-426d-9f39-73f9351ced06",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She turns a page. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 28,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "df414694-9607-4fbc-a1b5-ba1c75421032",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Light glints on the spoon, slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 30,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "293c8b17-feb1-4564-a13a-c3e9cba629a7",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The monks twirl spaghetti. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 31,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "c6947336-7915-40e5-a455-fc078b9aca0d",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She gestures as she tells the story. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 32,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "408f8af1-abfd-4ee8-856a-76fb7190c034",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Smoke curls up, a woodsman wipes his brow. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 33,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "64bdbe5a-5ee0-4950-beed-b9c4aaa0e17a",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They stir the pot, the fire flickers. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 34,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "28b94b30-63d7-4374-a82f-2104e62bf0e3",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They lean in, candles flicker. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 35,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "efee789d-339a-4b4d-a03b-240b1bedaafc",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They clink forks. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 37,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "f3d6cce4-b9fa-40be-ab42-82f1adaa947c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in on the blank card. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 38,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "6c7956c3-f135-48ba-bf71-4ad7cac3cdc6",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He looks up and the question mark wobbles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 39,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d3079d74-ad74-4a2f-b823-e66dfab6108f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in, birds drift. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 41,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "32345142-ca86-40bb-a9ee-7241ef5ba107",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. People reach up, a soldier hands down a loaf. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 43,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "542c21c6-4f8a-4f99-87fd-fe5ec7881f10",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The lid lifts to reveal the bacon. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 46,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "2f03dd09-db7e-4c49-af95-0531d207dde5",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They look from one plate to the other. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 51,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "9daff942-ec6d-46ce-97fe-ae80754c9739",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He tosses the pan, the bulb flickers on. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 52,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "07543da6-ec24-48aa-b5ff-9796b538b832",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Steam rises, slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 53,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "6fecd0c6-8cd9-4f31-85d5-9d46698b9e0f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He straightens his cap, waves roll behind. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 54,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "8d23b11f-fd9b-416e-89d4-ce041644f870",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They chat and raise glasses. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 55,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d3690c3d-8f79-417b-b58c-12cd582a0e1a",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He gestures grandly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 57,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "799779e9-3c02-479b-b534-1e389bbcfe06",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He tosses the pan and grinds pepper. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 58,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "56af7679-87ef-489e-93ac-f8a0101ba6ef",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He moves the magnifying glass and frowns. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 59,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "570038c4-d9d0-4c4b-9c93-05979fd83d76",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in on the empty space. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 60,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "7b5254a8-7c17-4eb1-ab39-7784b6ab80e0",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The book closes, the question mark wobbles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 61,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "4e43db0d-fccf-4a0a-be70-64800965fa50",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Pages flutter away. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 62,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "afc8a998-94ce-4659-a5ec-4046aab2114c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Steam rises, slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 64,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "9d60cf5b-c10a-4c6e-bac7-abccd3d3d2f1",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Lanterns sway. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 66,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d58fc3ee-2bca-4e71-8712-d1e597aad58b",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. An officer gestures, the waiter nods. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 68,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "e0698824-0c77-41ec-aab1-669337e44b29",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The magnifying glass slides along. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 69,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "75d9be3d-76f6-4747-9a9c-70346188611a",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The soldiers eat, she taps her foot. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 71,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "7bee8119-f3cc-4d32-9efd-e750c368a2a1",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The ship bobs across the waves. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 72,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "5cf760da-f878-4274-b617-40274c6b1b65",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The press stamps and a booklet slides out. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 73,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "af61b7d8-ab9d-4e0c-8e51-2804f06a6d49",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The hand opens the cover. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 74,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "3e30ea4f-3497-4156-9f22-b7ec6659776c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The door opens, warm light spills out. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 75,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "76aba64c-62ad-45a0-b39d-180e88df6796",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They smile and nod. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 77,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ddce4ff8-2838-4196-8538-cfba7568a91c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They slump. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 78,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "2baea6f7-c7b3-47a3-9ccc-b64d5b5d7bc4",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 79,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "5723dc0c-43ba-461c-9258-9c6503b90683",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The envelope glides across. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 81,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "dc5268c0-67c0-4b53-a641-47cb34514066",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She opens the magazine. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 82,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "bf57810c-fda7-4247-abf3-90f649715a6f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Her eyebrows shoot up. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 86,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "21012dae-1aa3-4749-9548-ec91be795afe",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They hold it up proudly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 87,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "74a4d8f1-be70-4294-9581-d526fcdf71cc",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They eat and laugh. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 88,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "a3b291f6-036f-4d38-99aa-fe94ebeed552",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The clock hands spin. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 89,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "7125770d-29b5-41d1-af8c-c6a48acd0c17",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He stirs a pan and glances at the phone. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 91,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "52adc7a0-a6ba-4100-bd80-5c526cead8fe",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Icons pop out one after another. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 94,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "a423fff7-9164-4ecd-b938-449e4570c4a1",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She shakes the garlic. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 95,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ad3fff17-c1a9-4c71-a8ab-d15616c3a3e0",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She sways and faints into the chair. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 96,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "a45438d5-ac62-472c-a1f4-baf458e088c0",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He shrugs with a small smile. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 97,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "99bc503a-07ad-4e01-aa46-358c6507bd03",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Steam rises, slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 98,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "474564c2-edc1-44a7-be9d-e6ac872bb17c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She types. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 99,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "00490244-fa38-4cc9-b163-0a5f96aaa106",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Steam rises from the teapot. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 102,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "e8f023b4-fb42-4e48-9dbb-0423a08fe036",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They point at the menu, the waiter nods. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 103,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "e900a2bf-696d-4a76-848a-80098a4913db",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. A spotlight sweeps across. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 104,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "a05f5f53-a5a3-400b-9dc0-711f4dd56a29",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 105,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "04789043-5291-49ea-b28f-813c440ffc8a",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Confetti falls, people cheer. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 106,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "b315b946-f892-4335-b948-b99b4b2d4a1a",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They tap furiously, bubbles pop up. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 107,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "cc0f3f7f-868a-42ad-b269-041f13f7789f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The cards flutter. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 108,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "f3f540e8-31d6-4236-b39d-18c381ae09de",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The guanciale hops into the spotlight. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 109,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "9bc3910c-0fd4-40af-a2a0-7117803a8057",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The pecorino nudges the parmesan off. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 111,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d52661ba-dbd6-4d84-b686-2025e529a5cb",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The cook pours the cream. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 113,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "3de7db64-f934-4cec-be85-bd6cb688a869",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He adjusts his toque proudly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 114,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "74037a1c-2aa2-407a-abac-f2d20281892d",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Diners applaud, he bows slightly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 115,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "c8499b9e-1666-4e3d-a315-d77cb76f5cca",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He pours the cream generously. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 116,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d1afcaec-3a3f-44f0-acd8-060fd66de294",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Her jaw drops. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 118,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ff127ef3-0114-4e01-b555-615ec28a8678",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The boot kicks the carton out. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 119,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "d192e335-e192-4aea-be47-e771b14d8764",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The chisel taps, dust falls. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 121,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "94d0b0f5-cc39-4caa-96e6-044c25cdc5b6",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The candles flicker. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 122,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "37f5903f-322d-42b9-91e3-0ed1e6247771",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She raises the rolling pin protectively. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 123,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "473903f9-46bc-49d4-ba10-8304fa4055a7",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He gestures as he speaks. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 125,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "72ebb558-3a76-4dfe-95d6-a7059a8c361e",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The flag wobbles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 126,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "1266eb7f-f8b7-4c53-b1a1-f8c0d43aed97",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They heave the dossier up a step. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 128,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "8fae8c39-cc73-4ee7-b8ab-d4e9621eebba",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They jump in surprise. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 129,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "fe2c936e-2f97-4b16-9976-e3d62aebd523",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They wave their forks. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 131,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "66adf92b-bdbf-4936-a9ac-b78692728f50",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The presenter gestures to the screen. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 132,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "4519c79f-bbd9-4e71-9153-4a8eb997b760",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The delegates applaud. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 133,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "79306e40-258e-45f1-a551-84effd185278",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push along the table. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 134,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "889275d8-5527-4551-82ae-dd8b40c7a99f",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Steam rises. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 135,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "40f2c41f-f5cb-4d88-951a-a9f40f1196d7",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The seesaw tips gently back and forth. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 138,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "72664d48-8437-48bb-a64a-b03edc7c60d2",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The cook tosses the pasta. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 139,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "0a4abf58-3ba3-4e5d-822b-c6b1b3a295d2",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The cook stirs, the soldier hands him bacon. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 140,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "cae63fc4-db7b-4ba3-b1b6-8a5ccbc4fe12",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. The crate is set down beside the pan. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 141,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "3b329022-8b1f-4362-9bb0-b3e53a741aea",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She writes and smiles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 142,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "38a62c78-e66f-4c44-bda5-01257a6ef0a8",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They shake hands warmly. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 143,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "75fc841c-dace-4f78-95e6-ee451cf7b46c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. They smile, the candle flickers. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 144,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 5,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "60536a37-6cfe-470f-9bef-538e70ace0a0",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Slow push in. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 145,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ac309ec7-c979-4ddd-b9d1-cada49f746d4",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. He closes the book and smiles. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 146,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 3,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "0d499b15-eead-4f40-b02a-a9f8bfa15d3c",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. She tastes it and gives a thumbs up. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+},
+{
+"index": 147,
+"params": {
+"model": "kling3_0_turbo",
+"resolution": "1080p",
+"aspect_ratio": "16:9",
+"duration": 4,
+"declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+"medias": [
+{
+"value": "ec730fc7-9d1b-4387-89c3-981e1a618af0",
+"role": "start_image"
+}
+],
+"prompt": "Stop-motion animation shot on twos, about 12 frames per second, slightly choppy handmade movement. Tiny figures move, lanterns flicker. Camera locked off. Miniature clay diorama, consistent characters and food, no morphing, no new objects, no text."
+}
+}
+]
