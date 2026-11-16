@@ -9,3 +9,11 @@ Mix plan: 3 tracks, trimmed + crossfaded, ducked to about −20 dB under VO.
 
 Mix moments: 0:35 drop out ~2s on "Nothing."; 2:44 T1 out / T2 in on "June 1944"; 6:01 crossfade to T3;
 7:57 slight swell on "Carbonara isn't ancient"; 8:12–8:15 music-only fade on end card (episode now ends 8:15 after teaser cut).
+
+## v2 remake (9:07) — mixed 2026-11-16 with the user's Suno tracks (`v2/music/`)
+| Track | File | Slot in v2 |
+|---|---|---|
+| 1 The Mystery | T1_mystery_village_well.mp3 ("The Secret of the Village Well") | 0:00–2:30 (hook, before, legends) |
+| 2 Rome 1944 → Chicago | T2_trattoria_swing.m4a ("Trattoria Swing") | 2:30–6:00 (1944 → Chicago → 1954); 172 s track, second pass crossfaded in at 4:59 |
+| 3 The Fight & The Answer | T3_sotto_il_sole_di_napoli.m4a ("Sotto il Sole di Napoli") | 6:00–9:07; its own ending lands on the last frame |
+Mix: `tools/mix_music_v2.py` — 3 s crossfades, bed ~15 dB under VO, sidechain-ducked while Benji speaks, output −14 LUFS.
